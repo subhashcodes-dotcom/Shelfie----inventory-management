@@ -1,0 +1,163 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                POINT OF SALE
+            </div>
+            <h1>
+                Orders & Billing
+            </h1>
+            <p>
+                Record a sale, calculate the customer bill and update inventory in one transaction.
+            </p>
+        </div>
+        <a class="yellow-btn" href="#pos">+ New Sale</a>
+    </div>
+    <div class="pos-grid">
+        <section class="card" id="pos">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        NEW SALE
+                    </div>
+                    <h2>
+                        Sales Checkout
+                    </h2>
+                </div>
+                <span class="live-tag">LIVE INVENTORY</span>
+            </div>
+            <form class="pos-form" action="/orders/sale" method="post" id="saleForm">
+                <label>
+                    Product / Variant<select name="variant_id" id="saleVariant">
+                    {% for v in variants %}
+                        <option value="{{v.id}}" data-price="{{v.base_price+v.price_modifier}}" data-stock="{{v.quantity}}">{{v.name}} • {{v.color or 'Standard'}} • {{v.storage or ''}} • Stock {{v.quantity}} • ₹{{'{:,.0f}'.format(v.base_price+v.price_modifier)}}</option>
+                    {% endfor %}
+                    </select>
+                </label>
+                <div class="two">
+                    <label>
+                        Quantity<input type="number" name="quantity" id="saleQty" value="1" min="1">
+                    </label>
+                    <label>
+                        Payment<select name="payment_method"><option>upi</option><option>card</option><option>cash</option><option>netbanking</option></select>
+                    </label>
+                </div>
+                <label>
+                    Discount (%)<input type="number" step="0.01" name="discount_pct" id="discountPct" value="0" min="0" max="50">
+                </label>
+                <div class="bill-summary">
+                    <div>
+                        <span>Gross amount</span><b id="grossAmount">₹0.00</b>
+                    </div>
+                    <div>
+                        <span>Discount</span><b id="discountAmount">₹0.00</b>
+                    </div>
+                    <div class="bill-total">
+                        <span>Final bill</span><b id="finalAmount">₹0.00</b>
+                    </div>
+                </div>
+                <button class="yellow-btn" id="completeSaleBtn">
+                    Complete Sale →
+                </button>
+            </form>
+            <div class="process-flow">
+                <span>SALE</span><i>→</i><span>CHECK STOCK</span><i>→</i><span>BILL</span><i>→</i><span>STOCK −</span><i>→</i><span>DATABASE</span>
+            </div>
+        </section>
+        <section class="card">
+            <div class="eyebrow">
+                OPERATIONAL RULES
+            </div>
+            <h2>
+                Transaction handling
+            </h2>
+            <div class="rule">
+                <b>01</b><span>Available stock is checked before the sale is accepted.</span>
+            </div>
+            <div class="rule">
+                <b>02</b><span>Discount is percentage-based and capped at 50%.</span>
+            </div>
+            <div class="rule">
+                <b>03</b><span>The final bill, payment and sale line are stored together.</span>
+            </div>
+            <div class="rule">
+                <b>04</b><span>Inventory is decremented only after validation succeeds.</span>
+            </div>
+        </section>
+    </div>
+    <section class="card">
+        <div class="card-head">
+            <div>
+                <div class="eyebrow">
+                    TRANSACTION HISTORY
+                </div>
+                <h2>
+                    Recent sales
+                </h2>
+            </div>
+            <span class="muted">{{rows|length}} loaded</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Order
+                    </th>
+                    <th>
+                        Product
+                    </th>
+                    <th>
+                        Variant
+                    </th>
+                    <th>
+                        Qty
+                    </th>
+                    <th>
+                        Unit price
+                    </th>
+                    <th>
+                        Line value
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th>
+                        Date
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in rows %}
+                    <tr>
+                        <td>
+                            <b>{{r.order_id}}</b>
+                        </td>
+                        <td>
+                            {{r.name}}
+                        </td>
+                        <td>
+                            {{r.color}}{{r.storage}}
+                        </td>
+                        <td>
+                            {{r.quantity}}
+                        </td>
+                        <td>
+                            ₹{{'{:,.2f}'.format(r.unit_price)}}
+                        </td>
+                        <td>
+                            ₹{{'{:,.2f}'.format(r.unit_price*r.quantity)}}
+                        </td>
+                        <td>
+                            <span class="status">{{r.status}}</span>
+                        </td>
+                        <td>
+                            {{r.order_date}}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+    <script>function updateBill(){const s=document.getElementById('saleVariant'),q=document.getElementById('saleQty'),d=document.getElementById('discountPct');if(!s)return;const opt=s.options[s.selectedIndex],price=Number(opt.dataset.price||0),stock=Number(opt.dataset.stock||0),qty=Math.max(1,Number(q.value||1)),pct=Math.min(50,Math.max(0,Number(d.value||0)));q.max=stock;d.value=pct;const gross=price*qty,disc=gross*pct/100;document.getElementById('grossAmount').textContent='₹'+gross.toLocaleString('en-IN',{minimumFractionDigits:2});document.getElementById('discountAmount').textContent='− ₹'+disc.toLocaleString('en-IN',{minimumFractionDigits:2});document.getElementById('finalAmount').textContent='₹'+(gross-disc).toLocaleString('en-IN',{minimumFractionDigits:2});document.getElementById('completeSaleBtn').disabled=stock<qty||stock===0;}document.addEventListener('DOMContentLoaded',()=>{['saleVariant','saleQty','discountPct'].forEach(id=>document.getElementById(id)?.addEventListener('input',updateBill));updateBill()});</script>
+{% endblock %}

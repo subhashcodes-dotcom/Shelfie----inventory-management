@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                DECISION EXPLANATION
+            </div>
+            <h1>
+                {{rec.product}}
+            </h1>
+            <p>
+                {{rec.variant or 'Standard variant'}} • {{rec.sku}}. The application shows exactly how the recommendation was produced.
+            </p>
+        </div>
+        <a class="outline-btn" href="/decision-center">← Back to decisions</a>
+    </div>
+    <div class="decision-detail-grid">
+        <section class="card">
+            <div class="eyebrow">
+                DECISION INPUTS
+            </div>
+            <h2>
+                Forecast → inventory → action
+            </h2>
+            <div class="decision-facts">
+                <div class="decision-fact">
+                    <small>CURRENT STOCK</small><b>{{rec.stock}}</b>
+                </div>
+                <div class="decision-fact">
+                    <small>AVG DAILY DEMAND</small><b>{{rec.avg_daily}}</b>
+                </div>
+                <div class="decision-fact">
+                    <small>7-DAY FORECAST</small><b>{{rec.predicted_7d}}</b>
+                </div>
+                <div class="decision-fact">
+                    <small>INCOMING STOCK</small><b>{{rec.incoming}}</b>
+                </div>
+                <div class="decision-fact">
+                    <small>STOCK COVER</small><b>{{rec.days_left or '—'}} days</b>
+                </div>
+                <div class="decision-fact">
+                    <small>SAFETY STOCK</small><b>{{ [1, (rec.avg_daily * 2)|round(0)|int] | max }}</b>
+                </div>
+            </div>
+            <div class="decision-reason">
+                <b>Recommended order: {{rec.recommended_order}} units</b>
+                <p>
+                    Suggested order = 7-day predicted demand + safety stock − current stock − incoming stock. The result is clipped at zero. Risk is <strong>{{rec.risk}}</strong>.
+                </p>
+            </div>
+            {% if rec.recommended_order>0 %}
+                <a class="action-btn" href="#create-po">Create purchase order →</a>
+            {% else %}
+                <div class="info-box">
+                    No immediate replenishment action is required.
+                </div>
+            {% endif %}
+        </section>
+        <section class="card" id="create-po">
+            <div class="eyebrow">
+                ACTION
+            </div>
+            <h2>
+                Purchase order
+            </h2>
+            {% if rec.recommended_order>0 %}
+                <p>
+                    Create an operational purchase order using the recommended quantity. Supplier ranking is based on recorded fulfillment.
+                </p>
+                <form class="supplier-choice" action="/decision/create-po/{{rec.variant_id}}" method="post">
+                    <label>
+                        Supplier<select name="supplier_id">
+                        {% for s in suppliers %}
+                            <option value="{{s.id}}">{{s.name}} — {{s.fulfillment}}% fulfillment</option>
+                        {% endfor %}
+                        </select>
+                    </label>
+                    <button class="yellow-btn" type="submit">
+                        Create PO for {{rec.recommended_order}} units
+                    </button>
+                </form>
+            {% else %}
+                <p class="muted">
+                    A purchase order cannot be created because the decision engine currently recommends zero units.
+                </p>
+            {% endif %}
+        </section>
+    </div>
+{% endblock %}

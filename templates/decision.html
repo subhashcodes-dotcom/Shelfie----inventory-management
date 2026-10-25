@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                PREDICT → DECIDE → ACT
+            </div>
+            <h1>
+                Decision Center
+            </h1>
+            <p>
+                Replenishment, stockout risk and slow-moving stock decisions based on inventory and transaction history.
+            </p>
+        </div>
+        <div class="hero-actions">
+            <a class="outline-btn" href="/export/recommendations.csv">Export CSV</a>
+            <form action="/train" method="post">
+                <button class="yellow-btn">
+                    Retrain model
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="decision-banner">
+        <div>
+            <span class="eyebrow">SMART REORDER LOGIC</span>
+            <h2>
+                Forecast + safety stock − current stock − incoming = suggested order
+            </h2>
+        </div>
+        <div class="model-score">
+            <small>MODEL R²</small><b>{{metrics.R2 if metrics.R2 is defined else '—'}}</b>
+        </div>
+    </div>
+    <section class="card">
+        <div class="card-head">
+            <div>
+                <div class="eyebrow">
+                    RECOMMENDATIONS
+                </div>
+                <h2>
+                    Every variant, one operational decision
+                </h2>
+            </div>
+            <span class="muted">{{recs|length}} analysed</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Product
+                    </th>
+                    <th>
+                        Stock
+                    </th>
+                    <th>
+                        Avg/day
+                    </th>
+                    <th>
+                        7d forecast
+                    </th>
+                    <th>
+                        Incoming
+                    </th>
+                    <th>
+                        Days cover
+                    </th>
+                    <th>
+                        Risk
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in recs %}
+                    <tr>
+                        <td>
+                            <a href="/decision/{{r.variant_id}}"><b>{{r.product}}</b></a><small>{{r.variant}}</small>
+                        </td>
+                        <td>
+                            {{r.stock}}
+                        </td>
+                        <td>
+                            {{r.avg_daily}}
+                        </td>
+                        <td>
+                            {{r.predicted_7d}}
+                        </td>
+                        <td>
+                            {{r.incoming}}
+                        </td>
+                        <td>
+                            {{r.days_left or '—'}}
+                        </td>
+                        <td>
+                            <span class="risk {{r.risk|lower}}">{{r.risk}}</span>
+                        </td>
+                        <td>
+                            {% if r.recommended_order %}
+                                <a class="order" href="/decision/{{r.variant_id}}">ORDER {{r.recommended_order}}</a>
+                            {% else %}
+                                <span class="ok">NO REORDER</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+{% endblock %}

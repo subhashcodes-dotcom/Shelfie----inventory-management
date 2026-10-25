@@ -1,0 +1,173 @@
+{% extends 'base.html' %}
+{% block content %}
+    <section class="welcome">
+        <div>
+            <div class="eyebrow">
+                STORE OPERATIONS • LIVE WORKSPACE
+            </div>
+            <h1>
+                Good day, {{user.name.split()[0]}}.
+            </h1>
+            <p>
+                Monitor stock, understand demand and act before inventory problems become losses.
+            </p>
+        </div>
+        <div class="hero-actions">
+            <a class="yellow-btn" href="/orders">+ New sale</a><a class="outline-btn" href="/decision-center">Open Decision Center</a>
+        </div>
+    </section>
+    <section class="kpis">
+        <a class="kpi kpi-link" href="/warehouse" title="Open warehouse catalog"><small>PRODUCTS</small><strong>{{'{:,}'.format(stats.products)}}</strong><span>Open catalog →</span></a><a class="kpi kpi-link" href="/warehouse" title="View current stock"><small>STOCK UNITS</small><strong>{{'{:,}'.format(stats.stock)}}</strong><span>View inventory →</span></a><a class="kpi kpi-link danger" href="/alerts?type=low" title="View low-stock alerts"><small>LOW STOCK</small><strong>{{stats.low}}</strong><span>View alerts →</span></a><a class="kpi kpi-link warn" href="/alerts?type=slow" title="View slow-moving stock"><small>SLOW-MOVING STOCK</small><strong>{{stats.slow_moving}}</strong><span>Review inventory →</span></a><a class="kpi kpi-link" href="/suppliers" title="Open suppliers"><small>SUPPLIERS</small><strong>{{stats.suppliers}}</strong><span>Open suppliers →</span></a>
+    </section>
+    <div class="dashboard-grid">
+        <section class="card">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        DECISION ENGINE
+                    </div>
+                    <h2>
+                        Priority actions
+                    </h2>
+                </div>
+                <a href="/decision-center">View all →</a>
+            </div>
+            <div class="priority-list">
+                {% for r in recs[:6] %}
+                    <div class="priority">
+                        <div class="thumb">
+                            {{r.product[:1]}}
+                        </div>
+                        <div class="priority-main">
+                            <b>{{r.product}}</b><span>{{r.variant or 'Standard'}} • {{r.stock}} pcs
+                            {% if r.days_left %}
+                                • {{r.days_left}} days cover
+                            {% endif %}
+                            </span>
+                        </div>
+                        <span class="risk {{r.risk|lower}}">{{r.risk}}</span><strong>
+                        {% if r.recommended_order %}
+                            ORDER {{r.recommended_order}}
+                        {% else %}
+                            OK
+                        {% endif %}
+                        </strong>
+                    </div>
+                {% else %}
+                    <div class="empty">
+                        No priority actions found.
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+        <section class="card">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        DEMAND SNAPSHOT
+                    </div>
+                    <h2>
+                        Top movers
+                    </h2>
+                </div>
+                <a href="/analytics">Analytics →</a>
+            </div>
+            <div class="move-list">
+                {% for x in top %}
+                    <div class="move">
+                        <span>{{x.name[:30]}}</span>
+                        <div>
+                            <i style="width:{{[100,(x.qty/(top[0].qty or 1)*100)]|min}}%"></i>
+                        </div>
+                        <b>{{x.qty}}</b>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="mini-callout">
+                <b>Data → Intelligence → Action</b><span>New sales and purchases feed the operational layer and refresh decision signals.</span>
+            </div>
+        </section>
+    </div>
+    <div class="dashboard-grid lower">
+        <section class="card">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        RECENT ACTIVITY
+                    </div>
+                    <h2>
+                        Latest orders
+                    </h2>
+                </div>
+                <a href="/orders">Open orders →</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Order
+                        </th>
+                        <th>
+                            Date
+                        </th>
+                        <th>
+                            Lines
+                        </th>
+                        <th>
+                            Status
+                        </th>
+                        <th>
+                            Total
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in recent %}
+                        <tr>
+                            <td>
+                                <b>{{r.id}}</b>
+                            </td>
+                            <td>
+                                {{r.order_date}}
+                            </td>
+                            <td>
+                                {{r.lines}}
+                            </td>
+                            <td>
+                                <span class="status">{{r.status}}</span>
+                            </td>
+                            <td>
+                                ₹{{'{:,.0f}'.format(r.total_amount or 0)}}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        <section class="card alert-card">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        INTELLIGENT ALERTS
+                    </div>
+                    <h2>
+                        Needs attention
+                    </h2>
+                </div>
+                <a href="/alerts">All alerts →</a>
+            </div>
+            {% for a in alerts[:5] %}
+                <div class="alert-row">
+                    <span class="alert-dot {{a.level}}"></span>
+                    <div>
+                        <b>{{a.title}}</b><small>{{a.detail}}</small>
+                    </div>
+                </div>
+            {% else %}
+                <div class="empty">
+                    No active alerts.
+                </div>
+            {% endfor %}
+        </section>
+    </div>
+{% endblock %}

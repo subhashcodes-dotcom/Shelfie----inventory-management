@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="assistant-shell advanced-assistant">
+        <div class="assistant-head">
+            <div class="eyebrow">
+                RULE-BASED DATA ASSISTANT
+            </div>
+            <h1>
+                Inventory Assistant
+            </h1>
+            <p>
+                Ask operational questions in plain language. Each answer is calculated from the live database or Data Science layer.
+            </p>
+        </div>
+        <section class="card assistant-card">
+            <form method="get" action="/assistant">
+                <div class="assistant-input">
+                    <input name="q" value="{{query}}" placeholder="Try: Which products are low stock?">
+                    <button class="yellow-btn">
+                        Ask
+                    </button>
+                </div>
+                <div class="suggestions">
+                    <a href="/assistant?q=Which%20products%20are%20low%20stock%3F">Low stock</a><a href="/assistant?q=What%20should%20I%20reorder%3F">Reorder</a><a href="/assistant?q=What%20are%20the%20top%20selling%20products%3F">Top selling</a><a href="/assistant?q=Which%20products%20are%20slow%20moving%3F">Slow moving</a><a href="/assistant?q=Who%20is%20the%20best%20supplier%3F">Suppliers</a><a href="/assistant?q=What%20is%20my%20total%20stock%3F">Stock</a>
+                </div>
+            </form>
+            {% if answer %}
+                <div class="assistant-answer">
+                    <div class="eyebrow">
+                        RESULT
+                    </div>
+                    <h2>
+                        {{answer.title}}
+                    </h2>
+                    {% if answer.text %}
+                        <p>
+                            {{answer.text}}
+                        </p>
+                    {% elif answer.rows %}
+                        <div class="assistant-result-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        {% for c in answer.columns %}
+                                            <th>
+                                                {{c|replace('_',' ')|title}}
+                                            </th>
+                                        {% endfor %}
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for row in answer.rows %}
+                                        <tr>
+                                            {% for c in answer.columns %}
+                                                <td>
+                                                    {{row.get(c,'—')}}
+                                                </td>
+                                            {% endfor %}
+                                        </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    {% else %}
+                        <p>
+                            No matching records.
+                        </p>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </section>
+        <section class="card question-library">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        QUESTION LIBRARY
+                    </div>
+                    <h2>
+                        50+ supported questions
+                    </h2>
+                </div>
+                <span class="muted">Click a question to ask it immediately</span>
+            </div>
+            {% for group,questions in question_groups.items() %}
+                <details {% if loop.first %}open{% endif %}>
+                    <summary>
+                        {{group}}<span>{{questions|length}} questions</span>
+                    </summary>
+                    <div class="question-grid">
+                        {% for q in questions %}
+                            <a class="question-button" href="{{url_for('assistant',q=q)}}">{{q}}</a>
+                        {% endfor %}
+                    </div>
+                </details>
+            {% endfor %}
+            <div class="assistant-footnote">
+                <b>How it works:</b> question → intent matching → SQL / model calculation → result. This is deliberately explainable for your viva.
+            </div>
+        </section>
+    </div>
+{% endblock %}

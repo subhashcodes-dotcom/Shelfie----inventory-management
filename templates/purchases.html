@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                SUPPLY CHAIN
+            </div>
+            <h1>
+                Purchase Orders
+            </h1>
+            <p>
+                Track ordered, received and outstanding supplier quantities.
+            </p>
+        </div>
+        <a class="outline-btn" href="/decision-center">Use recommendations</a>
+    </div>
+    <section class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        PO
+                    </th>
+                    <th>
+                        Supplier
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th>
+                        Ordered
+                    </th>
+                    <th>
+                        Received
+                    </th>
+                    <th>
+                        Fill rate
+                    </th>
+                    <th>
+                        Value
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in rows %}
+                    <tr>
+                        <td>
+                            <b>{{r.id}}</b>
+                        </td>
+                        <td>
+                            {{r.supplier}}
+                        </td>
+                        <td>
+                            <span class="status">{{r.status}}</span>
+                        </td>
+                        <td>
+                            {{r.ordered_qty or 0}}
+                        </td>
+                        <td>
+                            {{r.received_qty or 0}}
+                        </td>
+                        <td>
+                            <div class="meter">
+                                <i style="width:{{ [100, ((r.received_qty or 0)*100/(r.ordered_qty or 1))] | min }}%"></i>
+                            </div>
+                            {{'{:.0f}'.format((r.received_qty or 0)*100/(r.ordered_qty or 1))}}%
+                        </td>
+                        <td>
+                            ₹{{'{:,.0f}'.format(r.total_amount or 0)}}
+                        </td>
+                        <td>
+                            {% if r.status in ['ordered','processing'] %}
+                                <form method="post" action="/purchases/receive/{{r.id}}">
+                                    <button class="small-btn">
+                                        Receive
+                                    </button>
+                                </form>
+                            {% else %}
+                                <span class="muted">Closed</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+{% endblock %}

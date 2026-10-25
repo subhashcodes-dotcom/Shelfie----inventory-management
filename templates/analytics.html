@@ -1,0 +1,236 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                DATA SCIENCE • EXPLORATORY DATA ANALYSIS
+            </div>
+            <h1>
+                Analytics & EDA
+            </h1>
+            <p>
+                Python-based exploratory analysis of demand, inventory, supplier performance, slow-moving stock and feature relationships.
+            </p>
+        </div>
+        <form action="/train" method="post">
+            <button class="outline-btn">
+                ↻ Retrain model
+            </button>
+        </form>
+    </div>
+    <section class="eda-kpis">
+        <div class="kpi">
+            <small>SALES UNITS</small><strong>{{'{:,}'.format(kpis.sales_units)}}</strong><span>Recorded historical quantity</span>
+        </div>
+        <div class="kpi">
+            <small>SALES REVENUE</small><strong>₹{{'{:,.0f}'.format(kpis.revenue)}}</strong><span>Line-item value</span>
+        </div>
+        <div class="kpi">
+            <small>AVG / ACTIVE DAY</small><strong>{{kpis.avg_daily}}</strong><span>Units sold per active day</span>
+        </div>
+        <div class="kpi">
+            <small>STOCK UNITS</small><strong>{{'{:,}'.format(kpis.stock_units)}}</strong><span>Current inventory</span>
+        </div>
+        <div class="kpi">
+            <small>ACTIVE DAYS</small><strong>{{kpis.active_days}}</strong><span>Days with recorded sales</span>
+        </div>
+    </section>
+    <div class="eda-grid-advanced">
+        <section class="card eda-chart">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        TREND
+                    </div>
+                    <h2>
+                        Daily sales units
+                    </h2>
+                </div>
+                <span class="muted">Time series</span>
+            </div>
+            <div class="python-chart">
+                <img src="{{charts.daily_sales}}" alt="Daily sales units chart">
+            </div>
+        </section>
+        <section class="card eda-chart">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        TREND
+                    </div>
+                    <h2>
+                        Monthly demand
+                    </h2>
+                </div>
+                <span class="muted">Period comparison</span>
+            </div>
+            <div class="python-chart">
+                <img src="{{charts.monthly_demand}}" alt="Monthly demand chart">
+            </div>
+        </section>
+    </div>
+    <div class="eda-grid-advanced">
+        <section class="card eda-chart">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        CATEGORY
+                    </div>
+                    <h2>
+                        Units sold by category
+                    </h2>
+                </div>
+            </div>
+            <div class="python-chart">
+                <img src="{{charts.category_sales}}" alt="Category sales chart">
+            </div>
+        </section>
+        <section class="card eda-chart">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        PRODUCT RANKING
+                    </div>
+                    <h2>
+                        Top 10 products
+                    </h2>
+                </div>
+            </div>
+            <div class="python-chart">
+                <img src="{{charts.top_products}}" alt="Top products chart">
+            </div>
+        </section>
+    </div>
+    <div class="eda-grid-advanced">
+        <section class="card eda-chart">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        DISTRIBUTION
+                    </div>
+                    <h2>
+                        Current stock distribution
+                    </h2>
+                </div>
+                <span class="muted">Inventory spread</span>
+            </div>
+            <div class="python-chart">
+                <img src="{{charts.stock_distribution}}" alt="Stock distribution histogram">
+            </div>
+        </section>
+        <section class="card eda-chart">
+            <div class="card-head">
+                <div>
+                    <div class="eyebrow">
+                        SUPPLIER INTELLIGENCE
+                    </div>
+                    <h2>
+                        Supplier fulfillment
+                    </h2>
+                </div>
+                <span class="muted">Received ÷ ordered</span>
+            </div>
+            <div class="python-chart">
+                <img src="{{charts.supplier_fulfillment}}" alt="Supplier fulfillment chart">
+            </div>
+        </section>
+    </div>
+    <section class="card eda-chart eda-wide">
+        <div class="card-head">
+            <div>
+                <div class="eyebrow">
+                    RELATIONSHIP
+                </div>
+                <h2>
+                    Stock vs historical demand
+                </h2>
+            </div>
+            <span class="muted">Each point represents a variant</span>
+        </div>
+        <div class="python-chart">
+            <img src="{{charts.stock_vs_demand}}" alt="Stock versus historical demand scatter plot">
+        </div>
+    </section>
+    <section class="card eda-section">
+        <div class="card-head">
+            <div>
+                <div class="eyebrow">
+                    SLOW MOVING
+                </div>
+                <h2>
+                    Products needing attention
+                </h2>
+            </div>
+            <span class="muted">Low historical sales + current stock</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Product
+                    </th>
+                    <th>
+                        Category
+                    </th>
+                    <th>
+                        Stock
+                    </th>
+                    <th>
+                        Units sold
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in slow %}
+                    <tr>
+                        <td>
+                            <b>{{r.product}}</b><small>{{r.color or 'Variant'}}</small>
+                        </td>
+                        <td>
+                            {{r.category}}
+                        </td>
+                        <td>
+                            {{r.quantity}}
+                        </td>
+                        <td class="warn">
+                            {{r.sold|int}}
+                        </td>
+                        <td>
+                            ₹{{'{:,.0f}'.format(r.base_price or 0)}}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+    <section class="card eda-section">
+        <div class="card-head">
+            <div>
+                <div class="eyebrow">
+                    MODEL CHECK
+                </div>
+                <h2>
+                    Demand model evaluation
+                </h2>
+            </div>
+            <a href="/decision-center">Open Decision Center →</a>
+        </div>
+        <div class="model-metrics">
+            <div>
+                <small>MAE</small><b>{{metrics.MAE if metrics.MAE is defined else '—'}}</b><span>Lower is better</span>
+            </div>
+            <div>
+                <small>RMSE</small><b>{{metrics.RMSE if metrics.RMSE is defined else '—'}}</b><span>Lower is better</span>
+            </div>
+            <div>
+                <small>R²</small><b>{{metrics.R2 if metrics.R2 is defined else '—'}}</b><span>Closer to 1 is better</span>
+            </div>
+            <div>
+                <small>TEST ROWS</small><b>{{metrics.test_rows if metrics.test_rows is defined else '—'}}</b><span>Hold-out evaluation</span>
+            </div>
+        </div>
+    </section>
+{% endblock %}

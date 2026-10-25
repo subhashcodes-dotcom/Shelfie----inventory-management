@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                COMMERCIAL CONTROL
+            </div>
+            <h1>
+                Rates Management
+            </h1>
+            <p>
+                Manage base prices while preserving variant-level price modifiers.
+            </p>
+        </div>
+    </div>
+    <section class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Product
+                    </th>
+                    <th>
+                        SKU
+                    </th>
+                    <th>
+                        Brand
+                    </th>
+                    <th>
+                        Variants
+                    </th>
+                    <th>
+                        Base price
+                    </th>
+                    <th>
+                        Update
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in rows %}
+                    <tr>
+                        <td>
+                            <b>{{r.name}}</b>
+                        </td>
+                        <td>
+                            {{r.sku}}
+                        </td>
+                        <td>
+                            {{r.brand or '—'}}
+                        </td>
+                        <td>
+                            {{r.variants}}
+                        </td>
+                        <td>
+                            ₹{{'{:,.2f}'.format(r.base_price)}}
+                        </td>
+                        <td>
+                            <form class="inline-form" method="post" action="/rates/update">
+                                <input type="hidden" name="product_id" value="{{r.id}}"><input name="price" type="number" step="0.01" value="{{r.base_price}}">
+                                <button class="small-btn">
+                                    Save
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+{% endblock %}

@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                SYSTEM MANAGEMENT
+            </div>
+            <h1>
+                System & Model Status
+            </h1>
+            <p>
+                Technical view of the application, dataset and Data Science pipeline.
+            </p>
+        </div>
+        <form action="/train" method="post">
+            <button class="yellow-btn">
+                Retrain demand model
+            </button>
+        </form>
+    </div>
+    <div class="system-grid">
+        <div class="system-box">
+            <small>PRODUCTS</small><b>{{stats.products}}</b><span>catalog rows</span>
+        </div>
+        <div class="system-box">
+            <small>VARIANTS</small><b>{{stats.variants}}</b><span>sellable variants</span>
+        </div>
+        <div class="system-box">
+            <small>SALES LINES</small><b>{{stats.sales}}</b><span>transaction items</span>
+        </div>
+        <div class="system-box">
+            <small>MODEL R²</small><b>{{metrics.R2 if metrics.R2 is defined else '—'}}</b><span>hold-out evaluation</span>
+        </div>
+    </div>
+    <section class="card">
+        <div class="card-head">
+            <h2>
+                Python + ML pipeline
+            </h2>
+        </div>
+        <div class="pipeline">
+            <span>CSV / DB</span><i>→</i><span>Pandas</span><i>→</i><span>Cleaning</span><i>→</i><span>Features</span><i>→</i><span>Candidate models</span><i>→</i><span>Decision Engine</span>
+        </div>
+        <div class="info-box">
+            The submitted implementation uses explainable models appropriate for the mini-project: Random Forest demand forecasting and Isolation Forest anomaly detection. Candidate regression models are compared below before selecting the forecasting model used by the application.
+        </div>
+    </section>
+    <section class="card">
+        <div class="card-head">
+            <div>
+                <div class="eyebrow">
+                    MODEL SELECTION
+                </div>
+                <h2>
+                    Regression comparison
+                </h2>
+            </div>
+            <span class="muted">Same time-based hold-out split</span>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Model
+                    </th>
+                    <th>
+                        MAE
+                    </th>
+                    <th>
+                        RMSE
+                    </th>
+                    <th>
+                        R²
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for m in model_comparison %}
+                    <tr class="{% if m.model=='Random Forest' %}selected-row{% endif %}">
+                        <td>
+                            <b>{{m.model}}</b>
+                            {% if m.model=='Random Forest' %}
+                                <small>Application model</small>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {{m.MAE}}
+                        </td>
+                        <td>
+                            {{m.RMSE}}
+                        </td>
+                        <td>
+                            {{m.R2}}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <p class="eda-note">
+            The application keeps Random Forest because it is the chosen ensemble model for the implemented demand feature set; the comparison is included for methodology and viva transparency.
+        </p>
+    </section>
+{% endblock %}

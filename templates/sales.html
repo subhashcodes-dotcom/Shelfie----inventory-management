@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="grid2">
+        <section class="panel">
+            <div class="panel-head">
+                <div>
+                    <span class="eyebrow">POINT OF SALE</span>
+                    <h3>
+                        Record a sale
+                    </h3>
+                </div>
+            </div>
+            <form class="form" action="/sales/add" method="post">
+                <label>
+                    Product variant<select name="variant_id">
+                    {% for v in variants %}
+                        <option value="{{v.id}}">{{v.name}} · {{v.color}} · {{v.storage}} — stock {{v.quantity}}</option>
+                    {% endfor %}
+                    </select>
+                </label>
+                <div class="two">
+                    <label>
+                        Quantity<input type="number" name="quantity" min="1" value="1">
+                    </label>
+                    <label>
+                        Payment<select name="payment_method"><option>upi</option><option>card</option><option>cash</option><option>netbanking</option></select>
+                    </label>
+                </div>
+                <label>
+                    Discount amount<input type="number" step="0.01" name="discount" value="0">
+                </label>
+                <button class="primary">
+                    Record sale & update stock
+                </button>
+            </form>
+            <div class="info-box">
+                A completed sale writes a transaction, creates a checkout record and immediately reduces sellable inventory.
+            </div>
+        </section>
+        <section class="panel">
+            <div class="panel-head">
+                <div>
+                    <span class="eyebrow">LIVE OPERATION</span>
+                    <h3>
+                        How the transaction flows
+                    </h3>
+                </div>
+            </div>
+            <div class="timeline">
+                <div>
+                    <b>01</b> Sale captured
+                </div>
+                <div>
+                    <b>02</b> Inventory checked
+                </div>
+                <div>
+                    <b>03</b> Stock decremented
+                </div>
+                <div>
+                    <b>04</b> Transaction stored
+                </div>
+                <div>
+                    <b>05</b> Forecasts use new history
+                </div>
+                <div>
+                    <b>06</b> Recommendations refresh
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="panel">
+        <div class="panel-head">
+            <h3>
+                Recent transaction lines
+            </h3>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Order
+                    </th>
+                    <th>
+                        Product
+                    </th>
+                    <th>
+                        Variant
+                    </th>
+                    <th>
+                        Qty
+                    </th>
+                    <th>
+                        Unit price
+                    </th>
+                    <th>
+                        Date
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in rows %}
+                    <tr>
+                        <td>
+                            {{r.order_id}}
+                        </td>
+                        <td>
+                            <b>{{r.name}}</b>
+                        </td>
+                        <td>
+                            {{r.color}} · {{r.storage}}
+                        </td>
+                        <td>
+                            {{r.quantity}}
+                        </td>
+                        <td>
+                            ₹{{'{:,.0f}'.format(r.unit_price)}}
+                        </td>
+                        <td>
+                            {{r.order_date}}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+{% endblock %}

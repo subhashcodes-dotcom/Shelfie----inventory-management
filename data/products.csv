@@ -1,0 +1,826 @@
+id,brand_id,category_id,name,sku,description,base_price
+PRD00001,BRD001,CAT002,Apple iPhone 11,APP-IPHONE11-001,"Apple iPhone 11 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00002,BRD001,CAT002,Apple iPhone 11 Pro Max,APP-IPHONE11-002,"Apple iPhone 11 Pro Max is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00003,BRD001,CAT002,Apple iPhone 12,APP-IPHONE12-003,"Apple iPhone 12 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00004,BRD001,CAT002,Apple iPhone 12 Mini,APP-IPHONE12-004,"Apple iPhone 12 Mini is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00005,BRD001,CAT002,Apple iPhone 12 Pro,APP-IPHONE12-005,"Apple iPhone 12 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00006,BRD001,CAT002,Apple iPhone 13,APP-IPHONE13-006,"Apple iPhone 13 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00007,BRD001,CAT002,Apple iPhone 13 Mini,APP-IPHONE13-007,"Apple iPhone 13 Mini is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00008,BRD001,CAT002,Apple iPhone 13 Pro,APP-IPHONE13-008,"Apple iPhone 13 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00009,BRD001,CAT002,Apple iPhone 13 Pro Max,APP-IPHONE13-009,"Apple iPhone 13 Pro Max is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00010,BRD001,CAT002,Apple iPhone 14,APP-IPHONE14-010,"Apple iPhone 14 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00011,BRD001,CAT002,Apple iPhone 14 Mini,APP-IPHONE14-011,"Apple iPhone 14 Mini is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00012,BRD001,CAT002,Apple iPhone 14 Plus,APP-IPHONE14-012,"Apple iPhone 14 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00013,BRD001,CAT002,Apple iPhone 14 Pro,APP-IPHONE14-013,"Apple iPhone 14 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00014,BRD001,CAT002,Apple iPhone 14 Pro Max,APP-IPHONE14-014,"Apple iPhone 14 Pro Max is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00015,BRD001,CAT002,Apple iPhone 15,APP-IPHONE15-015,"Apple iPhone 15 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00016,BRD001,CAT002,Apple iPhone 15 Plus,APP-IPHONE15-016,"Apple iPhone 15 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00017,BRD001,CAT002,Apple iPhone 15 Pro,APP-IPHONE15-017,"Apple iPhone 15 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00018,BRD001,CAT002,Apple iPhone 15 Pro Max,APP-IPHONE15-018,"Apple iPhone 15 Pro Max is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00019,BRD001,CAT002,Apple iPhone 15 Ultra,APP-IPHONE15-019,"Apple iPhone 15 Ultra is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00020,BRD001,CAT002,Apple iPhone 7s,APP-IPHONE7S-020,"Apple iPhone 7s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00021,BRD001,CAT002,Apple iPhone 9,APP-IPHONE9-021,"Apple iPhone 9 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00022,BRD001,CAT002,Apple iPhone SE 2020,APP-IPHONESE-022,"Apple iPhone SE 2020 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00023,BRD001,CAT002,Apple iPhone SE 3 2022,APP-IPHONESE-023,"Apple iPhone SE 3 2022 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00024,BRD001,CAT002,Apple iPhone SE 4,APP-IPHONESE-024,"Apple iPhone SE 4 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00025,BRD001,CAT002,Apple iPhone XR2,APP-IPHONEXR2-025,"Apple iPhone XR2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00026,BRD001,CAT002,Apple iPod Touch,APP-IPODTOUCH-026,"Apple iPod Touch is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00027,BRD002,CAT002,Asus ROG Phone 5s 5G,ASU-ROGPHONE-027,"Asus ROG Phone 5s 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00028,BRD002,CAT002,Asus ROG Phone 6,ASU-ROGPHONE-028,"Asus ROG Phone 6 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00029,BRD002,CAT002,Asus ROG Phone 6 Batman Edition,ASU-ROGPHONE-029,"Asus ROG Phone 6 Batman Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00030,BRD002,CAT002,Asus ROG Phone 6 Pro 5G,ASU-ROGPHONE-030,"Asus ROG Phone 6 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00031,BRD002,CAT002,Asus ROG Phone 6D Ultimate,ASU-ROGPHONE-031,"Asus ROG Phone 6D Ultimate is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00032,BRD002,CAT002,Asus ROG Phone 7,ASU-ROGPHONE-032,"Asus ROG Phone 7 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00033,BRD002,CAT002,Asus ZenFone 9,ASU-ZENFONE9-033,"Asus ZenFone 9 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00034,BRD003,CAT002,Blackview BV5200 Pro,BLA-BV5200PRO-034,"Blackview BV5200 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00035,BRD004,CAT002,BlackZone Ultra 4G,BLA-ULTRA4G-035,"BlackZone Ultra 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00036,BRD005,CAT002,BLU F91 5G,BLU-F915G-036,"BLU F91 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00037,BRD006,CAT004,CAT S22 Flip,CAT-S22FLIP-037,"CAT S22 Flip is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00038,BRD007,CAT002,Cola Phone,COL-PHONE-038,"Cola Phone is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00039,BRD008,CAT002,DIZO Star 500,DIZ-STAR500-039,"DIZO Star 500 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00040,BRD009,CAT002,Doogee S99,DOO-S99-040,"Doogee S99 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00041,BRD009,CAT002,Doogee V Max,DOO-VMAX-041,"Doogee V Max is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00042,BRD010,CAT002,Duoqin F22 Pro,DUO-F22PRO-042,"Duoqin F22 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00043,BRD011,CAT002,Eunity U1 5605N,EUN-U15605N-043,"Eunity U1 5605N is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00044,BRD011,CAT002,Eunity U1 King,EUN-U1KING-044,"Eunity U1 King is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00045,BRD011,CAT002,Eunity U1 Livo,EUN-U1LIVO-045,"Eunity U1 Livo is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00046,BRD012,CAT002,Gionee G13 Pro,GIO-G13PRO-046,"Gionee G13 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00047,BRD012,CAT002,Gionee K10,GIO-K10-047,"Gionee K10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00048,BRD012,CAT002,Gionee M12 Pro,GIO-M12PRO-048,"Gionee M12 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00049,BRD013,CAT002,Google Pixel 2 XL,GOO-PIXEL2-049,"Google Pixel 2 XL is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00050,BRD013,CAT002,Google Pixel 3a XL,GOO-PIXEL3A-050,"Google Pixel 3a XL is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00051,BRD013,CAT002,Google Pixel 4,GOO-PIXEL4-051,"Google Pixel 4 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00052,BRD013,CAT002,Google Pixel 5,GOO-PIXEL5-052,"Google Pixel 5 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00053,BRD013,CAT002,Google Pixel 5A,GOO-PIXEL5A-053,"Google Pixel 5A is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00054,BRD013,CAT002,Google Pixel 6,GOO-PIXEL6-054,"Google Pixel 6 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00055,BRD013,CAT002,Google Pixel 6 Pro,GOO-PIXEL6-055,"Google Pixel 6 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00056,BRD013,CAT002,Google Pixel 6A,GOO-PIXEL6A-056,"Google Pixel 6A is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00057,BRD013,CAT002,Google Pixel 7 5G,GOO-PIXEL7-057,"Google Pixel 7 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00058,BRD013,CAT002,Google Pixel 7 Pro 5G,GOO-PIXEL7-058,"Google Pixel 7 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00059,BRD013,CAT002,Google Pixel 7A,GOO-PIXEL7A-059,"Google Pixel 7A is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00060,BRD013,CAT002,Google Pixel 8,GOO-PIXEL8-060,"Google Pixel 8 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00061,BRD013,CAT002,Google Pixel 8 Pro,GOO-PIXEL8-061,"Google Pixel 8 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00062,BRD014,CAT002,Honor 50,HON-50-062,"Honor 50 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00063,BRD014,CAT002,Honor 60 SE 5G,HON-60SE-063,"Honor 60 SE 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00064,BRD014,CAT002,Honor 70 5G,HON-705G-064,"Honor 70 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00065,BRD014,CAT002,Honor 80 Pro Plus,HON-80PRO-065,"Honor 80 Pro Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00066,BRD014,CAT002,Honor Magic 4 Pro Plus 5G,HON-MAGIC4-066,"Honor Magic 4 Pro Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00067,BRD014,CAT002,Honor Play 30,HON-PLAY30-067,"Honor Play 30 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00068,BRD014,CAT002,Honor X6,HON-X6-068,"Honor X6 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00069,BRD014,CAT002,Honor X7a,HON-X7A-069,"Honor X7a is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00070,BRD014,CAT002,Honor X8,HON-X8-070,"Honor X8 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00071,BRD014,CAT002,Honor X8 5G,HON-X85G-071,"Honor X8 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00072,BRD014,CAT002,Honor X9 5G,HON-X95G-072,"Honor X9 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00073,BRD014,CAT002,Honor X9a,HON-X9A-073,"Honor X9a is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00074,BRD015,CAT002,Huawei Honor 9N,HUA-HONOR9N-074,"Huawei Honor 9N is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00075,BRD015,CAT002,Huawei Mate 30 RS Porsche Design,HUA-MATE30-075,"Huawei Mate 30 RS Porsche Design is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00076,BRD015,CAT002,Huawei Mate 40 Pro 4G,HUA-MATE40-076,"Huawei Mate 40 Pro 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00077,BRD015,CAT002,Huawei Mate 50 Pro 5G,HUA-MATE50-077,"Huawei Mate 50 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00078,BRD015,CAT002,Huawei Mate 50 RS Porsche Design,HUA-MATE50-078,"Huawei Mate 50 RS Porsche Design is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00079,BRD015,CAT002,Huawei Mate X,HUA-MATEX-079,"Huawei Mate X is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00080,BRD015,CAT002,Huawei Mate Xs 2,HUA-MATEXS-080,"Huawei Mate Xs 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00081,BRD015,CAT002,Huawei Nova 10,HUA-NOVA10-081,"Huawei Nova 10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00082,BRD015,CAT002,Huawei Nova 10 SE,HUA-NOVA10-082,"Huawei Nova 10 SE is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00083,BRD015,CAT002,Huawei Nova 7i,HUA-NOVA7I-083,"Huawei Nova 7i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00084,BRD015,CAT002,Huawei Nova 9,HUA-NOVA9-084,"Huawei Nova 9 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00085,BRD015,CAT002,Huawei Nova 9 SE,HUA-NOVA9-085,"Huawei Nova 9 SE is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00086,BRD015,CAT002,Huawei Nova Y61,HUA-NOVAY61-086,"Huawei Nova Y61 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00087,BRD015,CAT002,Huawei Nova Y90,HUA-NOVAY90-087,"Huawei Nova Y90 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00088,BRD015,CAT002,Huawei P40 Pro,HUA-P40PRO-088,"Huawei P40 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00089,BRD015,CAT002,Huawei P50 Pro 4G,HUA-P50PRO-089,"Huawei P50 Pro 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00090,BRD016,CAT002,iKall K88 Pro 4G,IKA-K88PRO-090,"iKall K88 Pro 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00091,BRD016,CAT002,iKall Z18,IKA-Z18-091,"iKall Z18 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00092,BRD016,CAT002,iKall Z19,IKA-Z19-092,"iKall Z19 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00093,BRD016,CAT002,iKall Z19 Pro,IKA-Z19PRO-093,"iKall Z19 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00094,BRD017,CAT002,Infinix Hot 11S,INF-HOT11S-094,"Infinix Hot 11S is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00095,BRD017,CAT002,Infinix Hot 12,INF-HOT12-095,"Infinix Hot 12 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00096,BRD017,CAT002,Infinix Hot 12 Play,INF-HOT12-096,"Infinix Hot 12 Play is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00097,BRD017,CAT002,Infinix Hot 12 Pro,INF-HOT12-097,"Infinix Hot 12 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00098,BRD017,CAT002,Infinix Hot 20,INF-HOT20-098,"Infinix Hot 20 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00099,BRD017,CAT002,Infinix Hot 20 Play,INF-HOT20-099,"Infinix Hot 20 Play is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00100,BRD017,CAT002,Infinix Hot 20i,INF-HOT20I-100,"Infinix Hot 20i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00101,BRD017,CAT002,Infinix Hot 20S,INF-HOT20S-101,"Infinix Hot 20S is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00102,BRD017,CAT002,Infinix Note 11,INF-NOTE11-102,"Infinix Note 11 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00103,BRD017,CAT002,Infinix Note 11S,INF-NOTE11S-103,"Infinix Note 11S is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00104,BRD017,CAT002,Infinix Note 12,INF-NOTE12-104,"Infinix Note 12 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00105,BRD017,CAT002,Infinix Note 12 5G,INF-NOTE12-105,"Infinix Note 12 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00106,BRD017,CAT002,Infinix Note 12 Pro,INF-NOTE12-106,"Infinix Note 12 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00107,BRD017,CAT002,Infinix Note 12 Pro 5G,INF-NOTE12-107,"Infinix Note 12 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00108,BRD017,CAT002,Infinix Note 12 Turbo,INF-NOTE12-108,"Infinix Note 12 Turbo is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00109,BRD017,CAT002,Infinix Note 12 VIP,INF-NOTE12-109,"Infinix Note 12 VIP is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00110,BRD017,CAT002,Infinix Note 12i,INF-NOTE12I-110,"Infinix Note 12i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00111,BRD017,CAT002,Infinix Note 13 Pro,INF-NOTE13-111,"Infinix Note 13 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00112,BRD017,CAT002,Infinix Smart 6,INF-SMART6-112,"Infinix Smart 6 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00113,BRD017,CAT002,Infinix Smart 6 HD,INF-SMART6-113,"Infinix Smart 6 HD is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00114,BRD017,CAT002,Infinix Smart 6 Plus,INF-SMART6-114,"Infinix Smart 6 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00115,BRD017,CAT002,Infinix Zero 20,INF-ZERO20-115,"Infinix Zero 20 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00116,BRD017,CAT002,Infinix Zero 5G 2023,INF-ZERO5G-116,"Infinix Zero 5G 2023 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00117,BRD017,CAT002,Infinix Zero Ultra,INF-ZEROULTRA-117,"Infinix Zero Ultra is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00118,BRD017,CAT002,Infinix Zero X Pro,INF-ZEROX-118,"Infinix Zero X Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00119,BRD018,CAT002,iQOO 11,IQO-11-119,"iQOO 11 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00120,BRD018,CAT002,iQOO 11 5G,IQO-115G-120,"iQOO 11 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00121,BRD018,CAT002,iQOO 11 Pro 5G,IQO-11PRO-121,"iQOO 11 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00122,BRD018,CAT002,iQOO 7,IQO-7-122,"iQOO 7 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00123,BRD018,CAT002,iQOO 7 Legend,IQO-7LEGEND-123,"iQOO 7 Legend is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00124,BRD018,CAT002,iQOO 9 5G,IQO-95G-124,"iQOO 9 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00125,BRD018,CAT002,iQOO 9 Pro 5G,IQO-9PRO-125,"iQOO 9 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00126,BRD018,CAT002,iQOO 9 SE 5G,IQO-9SE-126,"iQOO 9 SE 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00127,BRD018,CAT002,iQOO 9T 5G,IQO-9T5G-127,"iQOO 9T 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00128,BRD018,CAT002,iQOO Neo 6 5G,IQO-NEO6-128,"iQOO Neo 6 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00129,BRD018,CAT002,iQOO Neo 6 SE 5G,IQO-NEO6-129,"iQOO Neo 6 SE 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00130,BRD018,CAT002,iQOO Neo 7 5G,IQO-NEO7-130,"iQOO Neo 7 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00131,BRD018,CAT002,iQOO Neo 7 Racing Edition,IQO-NEO7-131,"iQOO Neo 7 Racing Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00132,BRD018,CAT002,iQOO Neo 7 SE 5G,IQO-NEO7-132,"iQOO Neo 7 SE 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00133,BRD018,CAT002,iQOO Z6 4G,IQO-Z64G-133,"iQOO Z6 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00134,BRD018,CAT002,iQOO Z6 5G,IQO-Z65G-134,"iQOO Z6 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00135,BRD018,CAT002,iQOO Z6 Lite,IQO-Z6LITE-135,"iQOO Z6 Lite is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00136,BRD018,CAT002,iQOO Z6 Lite 5G,IQO-Z6LITE-136,"iQOO Z6 Lite 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00137,BRD018,CAT002,iQOO Z6 Pro 5G,IQO-Z6PRO-137,"iQOO Z6 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00138,BRD018,CAT002,iQOO Z7 5G,IQO-Z75G-138,"iQOO Z7 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00139,BRD018,CAT002,iQOO Z7 Pro 5G,IQO-Z7PRO-139,"iQOO Z7 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00140,BRD018,CAT002,iQOO Z8 5G,IQO-Z85G-140,"iQOO Z8 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00141,BRD018,CAT002,iQOO Z9,IQO-Z9-141,"iQOO Z9 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00142,BRD019,CAT002,Itel A23 Pro,ITE-A23PRO-142,"Itel A23 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00143,BRD020,CAT002,itel A23s,ITE-A23S-143,"itel A23s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00144,BRD019,CAT002,Itel A24 Pro,ITE-A24PRO-144,"Itel A24 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00145,BRD020,CAT002,itel A56,ITE-A56-145,"itel A56 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00146,BRD020,CAT002,itel it2163S,ITE-IT2163S-146,"itel it2163S is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00147,BRD020,CAT002,itel Magic 2 4G,ITE-MAGIC2-147,"itel Magic 2 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00148,BRD020,CAT002,itel Magic X,ITE-MAGICX-148,"itel Magic X is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00149,BRD019,CAT002,Itel MagicX Pro,ITE-MAGICXPRO-149,"Itel MagicX Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00150,BRD020,CAT002,itel P36,ITE-P36-150,"itel P36 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00151,BRD020,CAT002,itel S16,ITE-S16-151,"itel S16 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00152,BRD020,CAT002,itel S16 Pro,ITE-S16PRO-152,"itel S16 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00153,BRD020,CAT002,itel Vision 1,ITE-VISION1-153,"itel Vision 1 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00154,BRD020,CAT002,itel Vision 3,ITE-VISION3-154,"itel Vision 3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00155,BRD021,CAT003,Jio JioPhone 2,JIO-JIOPHONE2-155,"Jio JioPhone 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00156,BRD021,CAT003,Jio JioPhone 5G,JIO-JIOPHONE5G-156,"Jio JioPhone 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00157,BRD021,CAT003,Jio JioPhone Next,JIO-JIOPHONENEXT-157,"Jio JioPhone Next is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00158,BRD021,CAT003,Jio Phone 3,JIO-PHONE3-158,"Jio Phone 3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00159,BRD022,CAT002,Karbonn KU3i,KAR-KU3I-159,"Karbonn KU3i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00160,BRD023,CAT002,Lava Agni 5G,LAV-AGNI5G-160,"Lava Agni 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00161,BRD023,CAT002,Lava Blaze 5G,LAV-BLAZE5G-161,"Lava Blaze 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00162,BRD023,CAT002,Lava Blaze NXT,LAV-BLAZENXT-162,"Lava Blaze NXT is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00163,BRD023,CAT002,Lava X3,LAV-X3-163,"Lava X3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00164,BRD024,CAT002,LeEco S1 Pro,LEE-S1PRO-164,"LeEco S1 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00165,BRD025,CAT002,Leitz Phone 2,LEI-PHONE2-165,"Leitz Phone 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00166,BRD026,CAT002,Lenovo Legion Pro 2,LEN-LEGIONPRO-166,"Lenovo Legion Pro 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00167,BRD026,CAT002,Lenovo Legion Y90,LEN-LEGIONY90-167,"Lenovo Legion Y90 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00168,BRD027,CAT002,Letv Y1 Pro,LET-Y1PRO-168,"Letv Y1 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00169,BRD027,CAT002,Letv Y1 Pro Plus,LET-Y1PRO-169,"Letv Y1 Pro Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00170,BRD027,CAT002,Letv Y2 Pro,LET-Y2PRO-170,"Letv Y2 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00171,BRD028,CAT004,LG Folder 2,LG-FOLDER2-171,"LG Folder 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00172,BRD028,CAT002,LG V60 ThinQ,LG-V60THINQ-172,"LG V60 ThinQ is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00173,BRD028,CAT002,LG Velvet 5G,LG-VELVET5G-173,"LG Velvet 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00174,BRD028,CAT002,LG Wing 5G,LG-WING5G-174,"LG Wing 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00175,BRD029,CAT002,Lyf C459,LYF-C459-175,"Lyf C459 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00176,BRD029,CAT002,Lyf Earth 1,LYF-EARTH1-176,"Lyf Earth 1 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00177,BRD029,CAT002,Lyf Earth 2,LYF-EARTH2-177,"Lyf Earth 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00178,BRD030,CAT002,Micromax IN 2B,MIC-IN2B-178,"Micromax IN 2B is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00179,BRD030,CAT002,Micromax IN 2C,MIC-IN2C-179,"Micromax IN 2C is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00180,BRD031,CAT002,Motorola Edge 20 Fusion 5G,MOT-EDGE20-180,"Motorola Edge 20 Fusion 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00181,BRD031,CAT002,Motorola Edge 30 5G,MOT-EDGE30-181,"Motorola Edge 30 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00182,BRD031,CAT002,Motorola Edge 30 Fusion 5G,MOT-EDGE30-182,"Motorola Edge 30 Fusion 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00183,BRD031,CAT002,Motorola Edge 30 Pro 5G,MOT-EDGE30-183,"Motorola Edge 30 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00184,BRD031,CAT002,Motorola Edge 30 Ultra,MOT-EDGE30-184,"Motorola Edge 30 Ultra is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00185,BRD031,CAT002,Motorola Edge 40 5G,MOT-EDGE40-185,"Motorola Edge 40 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00186,BRD031,CAT002,Motorola Edge 40 Fusion,MOT-EDGE40-186,"Motorola Edge 40 Fusion is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00187,BRD031,CAT002,Motorola Edge 40 Pro 5G,MOT-EDGE40-187,"Motorola Edge 40 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00188,BRD031,CAT002,Motorola Edge Plus,MOT-EDGEPLUS-188,"Motorola Edge Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00189,BRD031,CAT002,Motorola Edge S,MOT-EDGES-189,"Motorola Edge S is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00190,BRD031,CAT002,Motorola Moto A10,MOT-MOTOA10-190,"Motorola Moto A10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00191,BRD031,CAT002,Motorola Moto E13,MOT-MOTOE13-191,"Motorola Moto E13 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00192,BRD031,CAT002,Motorola Moto E22s,MOT-MOTOE22S-192,"Motorola Moto E22s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00193,BRD031,CAT002,Motorola Moto E32,MOT-MOTOE32-193,"Motorola Moto E32 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00194,BRD031,CAT002,Motorola Moto E32s,MOT-MOTOE32S-194,"Motorola Moto E32s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00195,BRD031,CAT002,Motorola Moto E40,MOT-MOTOE40-195,"Motorola Moto E40 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00196,BRD031,CAT002,Motorola Moto Edge 30 Neo,MOT-MOTOEDGE-196,"Motorola Moto Edge 30 Neo is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00197,BRD031,CAT002,Motorola Moto Edge S30 5G,MOT-MOTOEDGE-197,"Motorola Moto Edge S30 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00198,BRD031,CAT002,Motorola Moto Edge S30 Pro,MOT-MOTOEDGE-198,"Motorola Moto Edge S30 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00199,BRD031,CAT002,Motorola Moto Edge X30 Pro,MOT-MOTOEDGE-199,"Motorola Moto Edge X30 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00200,BRD031,CAT002,Motorola Moto G 5G,MOT-MOTOG-200,"Motorola Moto G 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00201,BRD031,CAT002,Motorola Moto G13,MOT-MOTOG13-201,"Motorola Moto G13 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00202,BRD031,CAT002,Motorola Moto G22,MOT-MOTOG22-202,"Motorola Moto G22 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00203,BRD031,CAT002,Motorola Moto G23,MOT-MOTOG23-203,"Motorola Moto G23 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00204,BRD031,CAT002,Motorola Moto G31,MOT-MOTOG31-204,"Motorola Moto G31 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00205,BRD031,CAT002,Motorola Moto G32,MOT-MOTOG32-205,"Motorola Moto G32 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00206,BRD031,CAT002,Motorola Moto G40 Fusion,MOT-MOTOG40-206,"Motorola Moto G40 Fusion is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00207,BRD031,CAT002,Motorola Moto G42,MOT-MOTOG42-207,"Motorola Moto G42 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00208,BRD031,CAT002,Motorola Moto G51 5G,MOT-MOTOG51-208,"Motorola Moto G51 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00209,BRD031,CAT002,Motorola Moto G52,MOT-MOTOG52-209,"Motorola Moto G52 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00210,BRD031,CAT002,Motorola Moto G52 5G,MOT-MOTOG52-210,"Motorola Moto G52 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00211,BRD031,CAT002,Motorola Moto G53,MOT-MOTOG53-211,"Motorola Moto G53 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00212,BRD031,CAT002,Motorola Moto G60,MOT-MOTOG60-212,"Motorola Moto G60 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00213,BRD031,CAT002,Motorola Moto G62,MOT-MOTOG62-213,"Motorola Moto G62 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00214,BRD031,CAT002,Motorola Moto G62 5G,MOT-MOTOG62-214,"Motorola Moto G62 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00215,BRD031,CAT002,Motorola Moto G71 5G,MOT-MOTOG71-215,"Motorola Moto G71 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00216,BRD031,CAT002,Motorola Moto G72,MOT-MOTOG72-216,"Motorola Moto G72 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00217,BRD031,CAT002,Motorola Moto G72 4G,MOT-MOTOG72-217,"Motorola Moto G72 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00218,BRD031,CAT002,Motorola Moto G73,MOT-MOTOG73-218,"Motorola Moto G73 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00219,BRD031,CAT002,Motorola Moto G82,MOT-MOTOG82-219,"Motorola Moto G82 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00220,BRD031,CAT002,Motorola Moto G82 5G,MOT-MOTOG82-220,"Motorola Moto G82 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00221,BRD031,CAT002,Motorola Moto G91 5G,MOT-MOTOG91-221,"Motorola Moto G91 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00222,BRD031,CAT002,Motorola Moto S30 Pro,MOT-MOTOS30-222,"Motorola Moto S30 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00223,BRD031,CAT002,Motorola Moto X30 Pro,MOT-MOTOX30-223,"Motorola Moto X30 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00224,BRD031,CAT002,Motorola Moto X40,MOT-MOTOX40-224,"Motorola Moto X40 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00225,BRD031,CAT002,Motorola One Fusion Plus,MOT-ONEFUSION-225,"Motorola One Fusion Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00226,BRD031,CAT002,Motorola One Macro,MOT-ONEMACRO-226,"Motorola One Macro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00227,BRD031,CAT002,Motorola ThinkPhone,MOT-THINKPHONE-227,"Motorola ThinkPhone is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00228,BRD032,CAT002,Namotel Achhe Din,NAM-ACHHEDIN-228,"Namotel Achhe Din is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00229,BRD033,CAT003,Nokia 105,NOK-105-229,"Nokia 105 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00230,BRD033,CAT003,Nokia 105 Plus,NOK-105PLUS-230,"Nokia 105 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00231,BRD033,CAT002,Nokia 110,NOK-110-231,"Nokia 110 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00232,BRD033,CAT002,Nokia 110 4G,NOK-1104G-232,"Nokia 110 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00233,BRD033,CAT002,Nokia 150,NOK-150-233,"Nokia 150 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00234,BRD033,CAT002,Nokia 215 4G,NOK-2154G-234,"Nokia 215 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00235,BRD033,CAT002,Nokia 225 4G,NOK-2254G-235,"Nokia 225 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00236,BRD033,CAT004,Nokia 2660 Flip,NOK-2660FLIP-236,"Nokia 2660 Flip is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00237,BRD033,CAT004,Nokia 2720 V Flip,NOK-2720V-237,"Nokia 2720 V Flip is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00238,BRD033,CAT004,Nokia 2760 Flip,NOK-2760FLIP-238,"Nokia 2760 Flip is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00239,BRD033,CAT004,Nokia 2780 Flip,NOK-2780FLIP-239,"Nokia 2780 Flip is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00240,BRD033,CAT002,Nokia 3310 4G,NOK-33104G-240,"Nokia 3310 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00241,BRD033,CAT002,Nokia 400 4G,NOK-4004G-241,"Nokia 400 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00242,BRD033,CAT002,Nokia 5310 Dual Sim,NOK-5310DUAL-242,"Nokia 5310 Dual Sim is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00243,BRD033,CAT002,Nokia 5710 XpressAudio,NOK-5710XPRESSAUDIO-243,"Nokia 5710 XpressAudio is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00244,BRD033,CAT002,Nokia 8000 4G,NOK-80004G-244,"Nokia 8000 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00245,BRD033,CAT002,Nokia 8210 4G,NOK-82104G-245,"Nokia 8210 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00246,BRD033,CAT002,Nokia C01 Plus,NOK-C01PLUS-246,"Nokia C01 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00247,BRD033,CAT002,Nokia C21 Plus,NOK-C21PLUS-247,"Nokia C21 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00248,BRD033,CAT002,Nokia C31,NOK-C31-248,"Nokia C31 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00249,BRD033,CAT002,Nokia G11 Plus,NOK-G11PLUS-249,"Nokia G11 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00250,BRD033,CAT002,Nokia G21,NOK-G21-250,"Nokia G21 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00251,BRD033,CAT002,Nokia G60,NOK-G60-251,"Nokia G60 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00252,BRD033,CAT002,Nokia N73 5G,NOK-N735G-252,"Nokia N73 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00253,BRD033,CAT002,Nokia X100 5G,NOK-X1005G-253,"Nokia X100 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00254,BRD033,CAT002,Nokia X30,NOK-X30-254,"Nokia X30 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00255,BRD033,CAT002,Nokia X50 5G,NOK-X505G-255,"Nokia X50 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00256,BRD033,CAT002,Nokia X60 5G,NOK-X605G-256,"Nokia X60 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00257,BRD033,CAT002,Nokia X60 Pro 5G,NOK-X60PRO-257,"Nokia X60 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00258,BRD034,CAT002,Nothing Phone 1,NOT-PHONE1-258,"Nothing Phone 1 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00259,BRD034,CAT002,Nothing Phone 1 Lite,NOT-PHONE1-259,"Nothing Phone 1 Lite is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00260,BRD034,CAT002,Nothing Phone 2,NOT-PHONE2-260,"Nothing Phone 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00261,BRD035,CAT002,Nubia Red Magic 6S 5G,NUB-REDMAGIC-261,"Nubia Red Magic 6S 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00262,BRD035,CAT002,Nubia Red Magic 7S Pro,NUB-REDMAGIC-262,"Nubia Red Magic 7S Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00263,BRD035,CAT002,Nubia Red Magic 8 Pro 5G,NUB-REDMAGIC-263,"Nubia Red Magic 8 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00264,BRD035,CAT002,Nubia Red Magic 8 Pro Plus,NUB-REDMAGIC-264,"Nubia Red Magic 8 Pro Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00265,BRD035,CAT002,Nubia Z40 Pro 5G,NUB-Z40PRO-265,"Nubia Z40 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00266,BRD035,CAT002,Nubia Z50,NUB-Z50-266,"Nubia Z50 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00267,BRD036,CAT002,OnePlus 10 Pro 5G,ONE-10PRO-267,"OnePlus 10 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00268,BRD036,CAT002,OnePlus 10R 5G,ONE-10R5G-268,"OnePlus 10R 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00269,BRD036,CAT002,OnePlus 10R Prime Edition,ONE-10RPRIME-269,"OnePlus 10R Prime Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00270,BRD036,CAT002,OnePlus 10T,ONE-10T-270,"OnePlus 10T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00271,BRD036,CAT002,OnePlus 11 5G,ONE-115G-271,"OnePlus 11 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00272,BRD036,CAT002,OnePlus 11 Pro,ONE-11PRO-272,"OnePlus 11 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00273,BRD036,CAT002,OnePlus 11R,ONE-11R-273,"OnePlus 11R is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00274,BRD036,CAT002,OnePlus 12 Pro,ONE-12PRO-274,"OnePlus 12 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00275,BRD036,CAT002,OnePlus 6,ONE-6-275,"OnePlus 6 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00276,BRD036,CAT002,OnePlus 9 Pro,ONE-9PRO-276,"OnePlus 9 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00277,BRD036,CAT002,OnePlus 9RT 5G,ONE-9RT5G-277,"OnePlus 9RT 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00278,BRD036,CAT002,OnePlus 9T,ONE-9T-278,"OnePlus 9T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00279,BRD036,CAT002,OnePlus Ace 2,ONE-ACE2-279,"OnePlus Ace 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00280,BRD036,CAT002,OnePlus Ace 5G,ONE-ACE5G-280,"OnePlus Ace 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00281,BRD036,CAT002,OnePlus Ace Pro,ONE-ACEPRO-281,"OnePlus Ace Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00282,BRD036,CAT002,OnePlus Ace Racing Edition 5G,ONE-ACERACING-282,"OnePlus Ace Racing Edition 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00283,BRD036,CAT002,OnePlus Clover,ONE-CLOVER-283,"OnePlus Clover is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00284,BRD036,CAT002,OnePlus Nord 2 Lite 5G,ONE-NORD2-284,"OnePlus Nord 2 Lite 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00285,BRD036,CAT002,OnePlus Nord 2T,ONE-NORD2T-285,"OnePlus Nord 2T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00286,BRD036,CAT002,OnePlus Nord 2T 5G,ONE-NORD2T-286,"OnePlus Nord 2T 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00287,BRD036,CAT002,OnePlus Nord 3 5G,ONE-NORD3-287,"OnePlus Nord 3 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00288,BRD036,CAT002,OnePlus Nord 3T 5G,ONE-NORD3T-288,"OnePlus Nord 3T 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00289,BRD036,CAT002,OnePlus Nord 4 5G,ONE-NORD4-289,"OnePlus Nord 4 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00290,BRD036,CAT002,OnePlus Nord 5,ONE-NORD5-290,"OnePlus Nord 5 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00291,BRD036,CAT002,OnePlus Nord CE 2 Lite 5G,ONE-NORDCE-291,"OnePlus Nord CE 2 Lite 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00292,BRD036,CAT002,OnePlus Nord CE 3 5G,ONE-NORDCE-292,"OnePlus Nord CE 3 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00293,BRD036,CAT002,OnePlus Nord CE 3 Lite 5G,ONE-NORDCE-293,"OnePlus Nord CE 3 Lite 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00294,BRD036,CAT002,OnePlus Nord Lite,ONE-NORDLITE-294,"OnePlus Nord Lite is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00295,BRD036,CAT002,OnePlus Nord N10,ONE-NORDN10-295,"OnePlus Nord N10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00296,BRD036,CAT002,OnePlus Nord N100,ONE-NORDN100-296,"OnePlus Nord N100 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00297,BRD036,CAT002,OnePlus Nord N20 5G,ONE-NORDN20-297,"OnePlus Nord N20 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00298,BRD036,CAT002,OnePlus Nord N200,ONE-NORDN200-298,"OnePlus Nord N200 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00299,BRD036,CAT002,OnePlus Nord N300,ONE-NORDN300-299,"OnePlus Nord N300 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00300,BRD036,CAT002,OnePlus Nord SE,ONE-NORDSE-300,"OnePlus Nord SE is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00301,BRD036,CAT002,OnePlus Z,ONE-Z-301,"OnePlus Z is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00302,BRD037,CAT002,OPPO A1 Pro,OPP-A1PRO-302,"OPPO A1 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00303,BRD038,CAT002,Oppo A12,OPP-A12-303,"Oppo A12 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00304,BRD037,CAT002,OPPO A15,OPP-A15-304,"OPPO A15 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00305,BRD038,CAT002,Oppo A15s,OPP-A15S-305,"Oppo A15s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00306,BRD037,CAT002,OPPO A16,OPP-A16-306,"OPPO A16 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00307,BRD037,CAT002,OPPO A16e,OPP-A16E-307,"OPPO A16e is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00308,BRD037,CAT002,OPPO A16K,OPP-A16K-308,"OPPO A16K is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00309,BRD037,CAT002,OPPO A17,OPP-A17-309,"OPPO A17 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00310,BRD037,CAT002,OPPO A17K,OPP-A17K-310,"OPPO A17K is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00311,BRD038,CAT002,Oppo A31 2020,OPP-A312020-311,"Oppo A31 2020 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00312,BRD037,CAT002,OPPO A53 2020,OPP-A532020-312,"OPPO A53 2020 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00313,BRD037,CAT002,OPPO A54,OPP-A54-313,"OPPO A54 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00314,BRD037,CAT002,OPPO A55 4G,OPP-A554G-314,"OPPO A55 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00315,BRD037,CAT002,OPPO A55 5G,OPP-A555G-315,"OPPO A55 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00316,BRD038,CAT002,Oppo A56 5G,OPP-A565G-316,"Oppo A56 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00317,BRD038,CAT002,Oppo A56s,OPP-A56S-317,"Oppo A56s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00318,BRD037,CAT002,OPPO A57 4G,OPP-A574G-318,"OPPO A57 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00319,BRD037,CAT002,OPPO A58,OPP-A58-319,"OPPO A58 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00320,BRD037,CAT002,OPPO A58x,OPP-A58X-320,"OPPO A58x is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00321,BRD037,CAT002,OPPO A73,OPP-A73-321,"OPPO A73 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00322,BRD037,CAT002,OPPO A74 5G,OPP-A745G-322,"OPPO A74 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00323,BRD037,CAT002,OPPO A76,OPP-A76-323,"OPPO A76 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00324,BRD037,CAT002,OPPO A77,OPP-A77-324,"OPPO A77 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00325,BRD038,CAT002,Oppo A77 5G,OPP-A775G-325,"Oppo A77 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00326,BRD037,CAT002,OPPO A77s,OPP-A77S-326,"OPPO A77s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00327,BRD038,CAT002,Oppo A78,OPP-A78-327,"Oppo A78 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00328,BRD037,CAT002,OPPO A96 4G,OPP-A964G-328,"OPPO A96 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00329,BRD038,CAT002,Oppo A96 5G,OPP-A965G-329,"Oppo A96 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00330,BRD037,CAT002,OPPO A97 5G,OPP-A975G-330,"OPPO A97 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00331,BRD038,CAT002,Oppo A98,OPP-A98-331,"Oppo A98 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00332,BRD037,CAT002,OPPO F17 Pro,OPP-F17PRO-332,"OPPO F17 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00333,BRD037,CAT002,OPPO F19,OPP-F19-333,"OPPO F19 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00334,BRD037,CAT002,OPPO F19 Pro,OPP-F19PRO-334,"OPPO F19 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00335,BRD037,CAT002,OPPO F19 Pro Plus 5G,OPP-F19PRO-335,"OPPO F19 Pro Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00336,BRD037,CAT002,OPPO F19s,OPP-F19S-336,"OPPO F19s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00337,BRD037,CAT002,OPPO F21 Pro 4G,OPP-F21PRO-337,"OPPO F21 Pro 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00338,BRD037,CAT002,OPPO F21 Pro 5G,OPP-F21PRO-338,"OPPO F21 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00339,BRD037,CAT002,OPPO F21s Pro,OPP-F21SPRO-339,"OPPO F21s Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00340,BRD037,CAT002,OPPO F21s Pro 4G,OPP-F21SPRO-340,"OPPO F21s Pro 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00341,BRD037,CAT002,OPPO F22 Pro,OPP-F22PRO-341,"OPPO F22 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00342,BRD037,CAT002,OPPO F23 Pro,OPP-F23PRO-342,"OPPO F23 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00343,BRD037,CAT002,OPPO F23 Pro Plus 5G,OPP-F23PRO-343,"OPPO F23 Pro Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00344,BRD038,CAT002,Oppo Find N 5G,OPP-FINDN-344,"Oppo Find N 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00345,BRD037,CAT004,OPPO Find N Flip,OPP-FINDN-345,"OPPO Find N Flip is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00346,BRD038,CAT004,Oppo Find N Fold,OPP-FINDN-346,"Oppo Find N Fold is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00347,BRD038,CAT002,Oppo Find N2 5G,OPP-FINDN2-347,"Oppo Find N2 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00348,BRD037,CAT004,OPPO Find N2 Flip,OPP-FINDN2-348,"OPPO Find N2 Flip is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00349,BRD038,CAT002,Oppo Find X3 Pro,OPP-FINDX3-349,"Oppo Find X3 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00350,BRD038,CAT002,Oppo Find X5 Pro 5G,OPP-FINDX5-350,"Oppo Find X5 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00351,BRD038,CAT002,Oppo Find X6,OPP-FINDX6-351,"Oppo Find X6 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00352,BRD038,CAT002,Oppo Find X6 Pro,OPP-FINDX6-352,"Oppo Find X6 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00353,BRD037,CAT002,OPPO K10,OPP-K10-353,"OPPO K10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00354,BRD037,CAT002,OPPO K10 5G,OPP-K105G-354,"OPPO K10 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00355,BRD038,CAT002,Oppo K10 Pro 5G,OPP-K10PRO-355,"Oppo K10 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00356,BRD038,CAT002,Oppo K10x 5G,OPP-K10X5G-356,"Oppo K10x 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00357,BRD038,CAT002,Oppo K5,OPP-K5-357,"Oppo K5 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00358,BRD037,CAT002,OPPO Reno 10,OPP-RENO10-358,"OPPO Reno 10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00359,BRD037,CAT002,OPPO Reno 10 Pro,OPP-RENO10-359,"OPPO Reno 10 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00360,BRD038,CAT002,Oppo Reno 10 Pro Plus,OPP-RENO10-360,"Oppo Reno 10 Pro Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00361,BRD038,CAT002,Oppo Reno 5,OPP-RENO5-361,"Oppo Reno 5 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00362,BRD038,CAT002,Oppo Reno 5 Pro 5G,OPP-RENO5-362,"Oppo Reno 5 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00363,BRD038,CAT002,Oppo Reno 5A,OPP-RENO5A-363,"Oppo Reno 5A is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00364,BRD037,CAT002,OPPO Reno 6,OPP-RENO6-364,"OPPO Reno 6 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00365,BRD037,CAT002,OPPO Reno 6 Pro 5G,OPP-RENO6-365,"OPPO Reno 6 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00366,BRD037,CAT002,OPPO Reno 6 Pro Plus 5G,OPP-RENO6-366,"OPPO Reno 6 Pro Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00367,BRD037,CAT002,OPPO Reno 8 House of Dragon Edition,OPP-RENO8-367,"OPPO Reno 8 House of Dragon Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00368,BRD038,CAT002,Oppo Reno 8 Pro,OPP-RENO8-368,"Oppo Reno 8 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00369,BRD037,CAT002,OPPO Reno 8 Pro 5G,OPP-RENO8-369,"OPPO Reno 8 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00370,BRD037,CAT002,OPPO Reno 8 Pro House of Dragon Edition,OPP-RENO8-370,"OPPO Reno 8 Pro House of Dragon Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00371,BRD037,CAT002,OPPO Reno 8 Z,OPP-RENO8-371,"OPPO Reno 8 Z is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00372,BRD038,CAT002,Oppo Reno 8T,OPP-RENO8T-372,"Oppo Reno 8T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00373,BRD038,CAT002,Oppo Reno 8T 4G,OPP-RENO8T-373,"Oppo Reno 8T 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00374,BRD037,CAT002,OPPO Reno 9 5G,OPP-RENO9-374,"OPPO Reno 9 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00375,BRD037,CAT002,OPPO Reno 9 Pro 5G,OPP-RENO9-375,"OPPO Reno 9 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00376,BRD037,CAT002,OPPO Reno 9 Pro Plus,OPP-RENO9-376,"OPPO Reno 9 Pro Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00377,BRD037,CAT002,OPPO Reno 9 Z,OPP-RENO9-377,"OPPO Reno 9 Z is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00378,BRD037,CAT002,OPPO Reno7 5G,OPP-RENO75G-378,"OPPO Reno7 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00379,BRD037,CAT002,OPPO Reno7 Pro 5G,OPP-RENO7PRO-379,"OPPO Reno7 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00380,BRD037,CAT002,OPPO Reno7 Z 5G,OPP-RENO7Z-380,"OPPO Reno7 Z 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00381,BRD037,CAT002,OPPO Reno8 5G,OPP-RENO85G-381,"OPPO Reno8 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00382,BRD037,CAT002,OPPO X 2021,OPP-X2021-382,"OPPO X 2021 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00383,BRD039,CAT002,Oukitel WP19,OUK-WP19-383,"Oukitel WP19 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00384,BRD039,CAT002,Oukitel WP21,OUK-WP21-384,"Oukitel WP21 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00385,BRD039,CAT002,Oukitel WP9,OUK-WP9-385,"Oukitel WP9 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00386,BRD040,CAT002,POCO C31,POC-C31-386,"POCO C31 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00387,BRD041,CAT002,Poco C50,POC-C50-387,"Poco C50 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00388,BRD041,CAT002,Poco C55,POC-C55-388,"Poco C55 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00389,BRD041,CAT002,Poco F3 GT,POC-F3GT-389,"Poco F3 GT is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00390,BRD041,CAT002,Poco F4,POC-F4-390,"Poco F4 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00391,BRD041,CAT002,Poco F4 5G,POC-F45G-391,"Poco F4 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00392,BRD040,CAT002,POCO F4 GT 5G,POC-F4GT-392,"POCO F4 GT 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00393,BRD041,CAT002,Poco F5,POC-F5-393,"Poco F5 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00394,BRD040,CAT002,POCO F5 GT 5G,POC-F5GT-394,"POCO F5 GT 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00395,BRD041,CAT002,Poco F5 Pro,POC-F5PRO-395,"Poco F5 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00396,BRD041,CAT002,Poco M2,POC-M2-396,"Poco M2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00397,BRD040,CAT002,POCO M2 Pro,POC-M2PRO-397,"POCO M2 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00398,BRD041,CAT002,Poco M3,POC-M3-398,"Poco M3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00399,BRD040,CAT002,POCO M3 Pro 5G,POC-M3PRO-399,"POCO M3 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00400,BRD041,CAT002,Poco M4 5G,POC-M45G-400,"Poco M4 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00401,BRD040,CAT002,POCO M4 Pro 4G,POC-M4PRO-401,"POCO M4 Pro 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00402,BRD041,CAT002,Poco M4 Pro 5G,POC-M4PRO-402,"Poco M4 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00403,BRD041,CAT002,Poco M5,POC-M5-403,"Poco M5 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00404,BRD041,CAT002,Poco M6 Pro,POC-M6PRO-404,"Poco M6 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00405,BRD041,CAT002,Poco X3,POC-X3-405,"Poco X3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00406,BRD041,CAT002,Poco X3 Pro,POC-X3PRO-406,"Poco X3 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00407,BRD041,CAT002,Poco X4,POC-X4-407,"Poco X4 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00408,BRD040,CAT002,POCO X4 GT 5G,POC-X4GT-408,"POCO X4 GT 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00409,BRD041,CAT002,Poco X4 Pro 5G,POC-X4PRO-409,"Poco X4 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00410,BRD041,CAT002,Poco X5,POC-X5-410,"Poco X5 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00411,BRD040,CAT002,POCO X5 GT,POC-X5GT-411,"POCO X5 GT is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00412,BRD041,CAT002,Poco X5 Pro,POC-X5PRO-412,"Poco X5 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00413,BRD041,CAT002,Poco X6 Pro 5G,POC-X6PRO-413,"Poco X6 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00414,BRD042,CAT002,Realme 10,REA-10-414,"Realme 10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00415,BRD042,CAT002,Realme 10 5G,REA-105G-415,"Realme 10 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00416,BRD042,CAT002,Realme 10 Pro,REA-10PRO-416,"Realme 10 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00417,BRD042,CAT002,Realme 10 Pro Plus,REA-10PRO-417,"Realme 10 Pro Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00418,BRD042,CAT002,Realme 10s,REA-10S-418,"Realme 10s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00419,BRD042,CAT002,Realme 11 Pro,REA-11PRO-419,"Realme 11 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00420,BRD042,CAT002,Realme 11 Pro Plus,REA-11PRO-420,"Realme 11 Pro Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00421,BRD042,CAT002,Realme 6,REA-6-421,"Realme 6 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00422,BRD042,CAT002,Realme 6 Pro,REA-6PRO-422,"Realme 6 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00423,BRD042,CAT002,Realme 7 Pro,REA-7PRO-423,"Realme 7 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00424,BRD042,CAT002,Realme 8,REA-8-424,"Realme 8 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00425,BRD042,CAT002,Realme 8 5G,REA-85G-425,"Realme 8 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00426,BRD042,CAT002,Realme 8i,REA-8I-426,"Realme 8i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00427,BRD042,CAT002,Realme 8s 5G,REA-8S5G-427,"Realme 8s 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00428,BRD042,CAT002,Realme 9 4G,REA-94G-428,"Realme 9 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00429,BRD042,CAT002,Realme 9 5G,REA-95G-429,"Realme 9 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00430,BRD042,CAT002,Realme 9 5G SE,REA-95G-430,"Realme 9 5G SE is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00431,BRD042,CAT002,Realme 9 Pro 5G,REA-9PRO-431,"Realme 9 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00432,BRD042,CAT002,Realme 9 Pro Plus 5G,REA-9PRO-432,"Realme 9 Pro Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00433,BRD042,CAT002,Realme 9i,REA-9I-433,"Realme 9i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00434,BRD042,CAT002,Realme 9i 5G,REA-9I5G-434,"Realme 9i 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00435,BRD042,CAT002,Realme A1,REA-A1-435,"Realme A1 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00436,BRD042,CAT002,Realme C11,REA-C11-436,"Realme C11 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00437,BRD042,CAT002,Realme C11 2021,REA-C112021-437,"Realme C11 2021 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00438,BRD042,CAT002,Realme C2,REA-C2-438,"Realme C2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00439,BRD042,CAT002,Realme C21Y,REA-C21Y-439,"Realme C21Y is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00440,BRD042,CAT002,Realme C25Y,REA-C25Y-440,"Realme C25Y is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00441,BRD042,CAT002,Realme C2s,REA-C2S-441,"Realme C2s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00442,BRD042,CAT002,Realme C30,REA-C30-442,"Realme C30 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00443,BRD042,CAT002,Realme C30s,REA-C30S-443,"Realme C30s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00444,BRD042,CAT002,Realme C31,REA-C31-444,"Realme C31 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00445,BRD042,CAT002,Realme C32,REA-C32-445,"Realme C32 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00446,BRD042,CAT002,Realme C33,REA-C33-446,"Realme C33 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00447,BRD042,CAT002,Realme C35,REA-C35-447,"Realme C35 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00448,BRD042,CAT002,Realme G1,REA-G1-448,"Realme G1 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00449,BRD042,CAT002,Realme GT 2 5G,REA-GT2-449,"Realme GT 2 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00450,BRD042,CAT002,Realme GT 2 Explorer Master Edition,REA-GT2-450,"Realme GT 2 Explorer Master Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00451,BRD042,CAT002,Realme GT 2 Pro 5G,REA-GT2-451,"Realme GT 2 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00452,BRD042,CAT002,Realme GT 5G,REA-GT5G-452,"Realme GT 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00453,BRD042,CAT002,Realme GT Explorer Master Edition,REA-GTEXPLORER-453,"Realme GT Explorer Master Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00454,BRD042,CAT002,Realme GT Master Edition 5G,REA-GTMASTER-454,"Realme GT Master Edition 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00455,BRD042,CAT002,Realme GT Neo 3 5G,REA-GTNEO-455,"Realme GT Neo 3 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00456,BRD042,CAT002,Realme GT Neo 3T,REA-GTNEO-456,"Realme GT Neo 3T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00457,BRD042,CAT002,Realme GT Neo 4T,REA-GTNEO-457,"Realme GT Neo 4T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00458,BRD042,CAT002,Realme GT Neo 5,REA-GTNEO-458,"Realme GT Neo 5 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00459,BRD042,CAT002,Realme GT Neo2 5G,REA-GTNEO2-459,"Realme GT Neo2 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00460,BRD042,CAT002,Realme Narzo 20,REA-NARZO20-460,"Realme Narzo 20 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00461,BRD042,CAT002,Realme Narzo 30 5G,REA-NARZO30-461,"Realme Narzo 30 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00462,BRD042,CAT002,Realme Narzo 30 Pro 5G,REA-NARZO30-462,"Realme Narzo 30 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00463,BRD042,CAT002,Realme Narzo 50,REA-NARZO50-463,"Realme Narzo 50 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00464,BRD042,CAT002,Realme Narzo 50 5G,REA-NARZO50-464,"Realme Narzo 50 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00465,BRD042,CAT002,Realme Narzo 50 Pro 5G,REA-NARZO50-465,"Realme Narzo 50 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00466,BRD042,CAT002,Realme Narzo 50A,REA-NARZO50A-466,"Realme Narzo 50A is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00467,BRD042,CAT002,Realme Narzo 50A Prime,REA-NARZO50A-467,"Realme Narzo 50A Prime is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00468,BRD042,CAT002,Realme Narzo 50i,REA-NARZO50I-468,"Realme Narzo 50i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00469,BRD042,CAT002,Realme Narzo 50i Prime,REA-NARZO50I-469,"Realme Narzo 50i Prime is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00470,BRD042,CAT002,Realme Q2i,REA-Q2I-470,"Realme Q2i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00471,BRD042,CAT002,Realme Q3,REA-Q3-471,"Realme Q3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00472,BRD042,CAT002,Realme Q3i 5G,REA-Q3I5G-472,"Realme Q3i 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00473,BRD042,CAT002,Realme Q5 5G,REA-Q55G-473,"Realme Q5 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00474,BRD042,CAT002,Realme X50 Pro 5G,REA-X50PRO-474,"Realme X50 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00475,BRD042,CAT002,Realme X7 Max,REA-X7MAX-475,"Realme X7 Max is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00476,BRD042,CAT002,Realme XT,REA-XT-476,"Realme XT is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00477,BRD043,CAT002,Redmi 12C,RED-12C-477,"Redmi 12C is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00478,BRD043,CAT002,Redmi Note 11 Pro 2023,RED-NOTE11-478,"Redmi Note 11 Pro 2023 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00479,BRD043,CAT002,Redmi Note 12 Pro Speed Edition,RED-NOTE12-479,"Redmi Note 12 Pro Speed Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00480,BRD044,CAT002,Royole FlexPai 2,ROY-FLEXPAI2-480,"Royole FlexPai 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00481,BRD044,CAT002,Royole FlexPai 3 5G,ROY-FLEXPAI3-481,"Royole FlexPai 3 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00482,BRD045,CAT002,Samsung Galaxy A01 Core,SAM-GALAXYA01-482,"Samsung Galaxy A01 Core is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00483,BRD045,CAT002,Samsung Galaxy A03,SAM-GALAXYA03-483,"Samsung Galaxy A03 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00484,BRD045,CAT002,Samsung Galaxy A03 Core,SAM-GALAXYA03-484,"Samsung Galaxy A03 Core is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00485,BRD045,CAT002,Samsung Galaxy A03s,SAM-GALAXYA03S-485,"Samsung Galaxy A03s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00486,BRD045,CAT002,Samsung Galaxy A04,SAM-GALAXYA04-486,"Samsung Galaxy A04 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00487,BRD045,CAT002,Samsung Galaxy A04e,SAM-GALAXYA04E-487,"Samsung Galaxy A04e is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00488,BRD045,CAT002,Samsung Galaxy A04s,SAM-GALAXYA04S-488,"Samsung Galaxy A04s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00489,BRD045,CAT002,Samsung Galaxy A05,SAM-GALAXYA05-489,"Samsung Galaxy A05 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00490,BRD045,CAT002,Samsung Galaxy A11,SAM-GALAXYA11-490,"Samsung Galaxy A11 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00491,BRD045,CAT002,Samsung Galaxy A12,SAM-GALAXYA12-491,"Samsung Galaxy A12 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00492,BRD045,CAT002,Samsung Galaxy A13,SAM-GALAXYA13-492,"Samsung Galaxy A13 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00493,BRD045,CAT002,Samsung Galaxy A13 5G,SAM-GALAXYA13-493,"Samsung Galaxy A13 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00494,BRD045,CAT002,Samsung Galaxy A14 5G,SAM-GALAXYA14-494,"Samsung Galaxy A14 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00495,BRD045,CAT002,Samsung Galaxy A15,SAM-GALAXYA15-495,"Samsung Galaxy A15 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00496,BRD045,CAT002,Samsung Galaxy A21s,SAM-GALAXYA21S-496,"Samsung Galaxy A21s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00497,BRD045,CAT002,Samsung Galaxy A22,SAM-GALAXYA22-497,"Samsung Galaxy A22 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00498,BRD045,CAT002,Samsung Galaxy A22 5G,SAM-GALAXYA22-498,"Samsung Galaxy A22 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00499,BRD045,CAT002,Samsung Galaxy A23,SAM-GALAXYA23-499,"Samsung Galaxy A23 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00500,BRD045,CAT002,Samsung Galaxy A23 5G,SAM-GALAXYA23-500,"Samsung Galaxy A23 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00501,BRD045,CAT002,Samsung Galaxy A24,SAM-GALAXYA24-501,"Samsung Galaxy A24 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00502,BRD045,CAT002,Samsung Galaxy A32,SAM-GALAXYA32-502,"Samsung Galaxy A32 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00503,BRD045,CAT002,Samsung Galaxy A32 5G,SAM-GALAXYA32-503,"Samsung Galaxy A32 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00504,BRD045,CAT002,Samsung Galaxy A33 5G,SAM-GALAXYA33-504,"Samsung Galaxy A33 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00505,BRD045,CAT002,Samsung Galaxy A34 5G,SAM-GALAXYA34-505,"Samsung Galaxy A34 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00506,BRD045,CAT002,Samsung Galaxy A40,SAM-GALAXYA40-506,"Samsung Galaxy A40 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00507,BRD045,CAT002,Samsung Galaxy A50s,SAM-GALAXYA50S-507,"Samsung Galaxy A50s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00508,BRD045,CAT002,Samsung Galaxy A52,SAM-GALAXYA52-508,"Samsung Galaxy A52 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00509,BRD045,CAT002,Samsung Galaxy A53,SAM-GALAXYA53-509,"Samsung Galaxy A53 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00510,BRD045,CAT002,Samsung Galaxy A53 5G,SAM-GALAXYA53-510,"Samsung Galaxy A53 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00511,BRD045,CAT002,Samsung Galaxy A54 5G,SAM-GALAXYA54-511,"Samsung Galaxy A54 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00512,BRD045,CAT002,Samsung Galaxy A7,SAM-GALAXYA7-512,"Samsung Galaxy A7 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00513,BRD045,CAT002,Samsung Galaxy A71,SAM-GALAXYA71-513,"Samsung Galaxy A71 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00514,BRD045,CAT002,Samsung Galaxy A73 5G,SAM-GALAXYA73-514,"Samsung Galaxy A73 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00515,BRD045,CAT002,Samsung Galaxy A74 5G,SAM-GALAXYA74-515,"Samsung Galaxy A74 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00516,BRD045,CAT002,Samsung Galaxy A75 5G,SAM-GALAXYA75-516,"Samsung Galaxy A75 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00517,BRD045,CAT002,Samsung Galaxy A82 5G,SAM-GALAXYA82-517,"Samsung Galaxy A82 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00518,BRD045,CAT002,Samsung Galaxy A83 5G,SAM-GALAXYA83-518,"Samsung Galaxy A83 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00519,BRD045,CAT002,Samsung Galaxy A9 Pro,SAM-GALAXYA9-519,"Samsung Galaxy A9 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00520,BRD045,CAT002,Samsung Galaxy A92 5G,SAM-GALAXYA92-520,"Samsung Galaxy A92 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00521,BRD045,CAT002,Samsung Galaxy F04,SAM-GALAXYF04-521,"Samsung Galaxy F04 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00522,BRD045,CAT002,Samsung Galaxy F12,SAM-GALAXYF12-522,"Samsung Galaxy F12 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00523,BRD045,CAT002,Samsung Galaxy F13,SAM-GALAXYF13-523,"Samsung Galaxy F13 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00524,BRD045,CAT002,Samsung Galaxy F14,SAM-GALAXYF14-524,"Samsung Galaxy F14 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00525,BRD045,CAT002,Samsung Galaxy F22,SAM-GALAXYF22-525,"Samsung Galaxy F22 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00526,BRD045,CAT002,Samsung Galaxy F23 5G,SAM-GALAXYF23-526,"Samsung Galaxy F23 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00527,BRD045,CAT002,Samsung Galaxy F24 5G,SAM-GALAXYF24-527,"Samsung Galaxy F24 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00528,BRD045,CAT002,Samsung Galaxy F41,SAM-GALAXYF41-528,"Samsung Galaxy F41 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00529,BRD045,CAT002,Samsung Galaxy F42 5G,SAM-GALAXYF42-529,"Samsung Galaxy F42 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00530,BRD045,CAT002,Samsung Galaxy F63,SAM-GALAXYF63-530,"Samsung Galaxy F63 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00531,BRD045,CAT002,Samsung Galaxy M04,SAM-GALAXYM04-531,"Samsung Galaxy M04 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00532,BRD045,CAT002,Samsung Galaxy M12,SAM-GALAXYM12-532,"Samsung Galaxy M12 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00533,BRD045,CAT002,Samsung Galaxy M13,SAM-GALAXYM13-533,"Samsung Galaxy M13 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00534,BRD045,CAT002,Samsung Galaxy M13 5G,SAM-GALAXYM13-534,"Samsung Galaxy M13 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00535,BRD045,CAT002,Samsung Galaxy M14,SAM-GALAXYM14-535,"Samsung Galaxy M14 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00536,BRD045,CAT002,Samsung Galaxy M21 2021,SAM-GALAXYM21-536,"Samsung Galaxy M21 2021 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00537,BRD045,CAT002,Samsung Galaxy M32,SAM-GALAXYM32-537,"Samsung Galaxy M32 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00538,BRD045,CAT002,Samsung Galaxy M32 Prime Edition,SAM-GALAXYM32-538,"Samsung Galaxy M32 Prime Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00539,BRD045,CAT002,Samsung Galaxy M33 5G,SAM-GALAXYM33-539,"Samsung Galaxy M33 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00540,BRD045,CAT002,Samsung Galaxy M34 5G,SAM-GALAXYM34-540,"Samsung Galaxy M34 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00541,BRD045,CAT002,Samsung Galaxy M35,SAM-GALAXYM35-541,"Samsung Galaxy M35 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00542,BRD045,CAT002,Samsung Galaxy M51s 5G,SAM-GALAXYM51S-542,"Samsung Galaxy M51s 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00543,BRD045,CAT002,Samsung Galaxy M52s 5G,SAM-GALAXYM52S-543,"Samsung Galaxy M52s 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00544,BRD045,CAT002,Samsung Galaxy M53 5G,SAM-GALAXYM53-544,"Samsung Galaxy M53 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00545,BRD045,CAT002,Samsung Galaxy M54 5G,SAM-GALAXYM54-545,"Samsung Galaxy M54 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00546,BRD045,CAT002,Samsung Galaxy M62,SAM-GALAXYM62-546,"Samsung Galaxy M62 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00547,BRD045,CAT002,Samsung Galaxy Note 10 Lite,SAM-GALAXYNOTE-547,"Samsung Galaxy Note 10 Lite is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00548,BRD045,CAT002,Samsung Galaxy Note 10 Plus,SAM-GALAXYNOTE-548,"Samsung Galaxy Note 10 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00549,BRD045,CAT002,Samsung Galaxy Note 10 Plus 5G,SAM-GALAXYNOTE-549,"Samsung Galaxy Note 10 Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00550,BRD045,CAT002,Samsung Galaxy Note 20,SAM-GALAXYNOTE-550,"Samsung Galaxy Note 20 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00551,BRD045,CAT002,Samsung Galaxy Note 30 Ultra 5G,SAM-GALAXYNOTE-551,"Samsung Galaxy Note 30 Ultra 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00552,BRD045,CAT002,Samsung Galaxy S10 5G,SAM-GALAXYS10-552,"Samsung Galaxy S10 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00553,BRD045,CAT002,Samsung Galaxy S10 Plus,SAM-GALAXYS10-553,"Samsung Galaxy S10 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00554,BRD045,CAT002,Samsung Galaxy S20,SAM-GALAXYS20-554,"Samsung Galaxy S20 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00555,BRD045,CAT002,Samsung Galaxy S20 5G,SAM-GALAXYS20-555,"Samsung Galaxy S20 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00556,BRD045,CAT002,Samsung Galaxy S20 FE,SAM-GALAXYS20-556,"Samsung Galaxy S20 FE is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00557,BRD045,CAT002,Samsung Galaxy S20 FE 5G,SAM-GALAXYS20-557,"Samsung Galaxy S20 FE 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00558,BRD045,CAT002,Samsung Galaxy S20 Plus,SAM-GALAXYS20-558,"Samsung Galaxy S20 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00559,BRD045,CAT002,Samsung Galaxy S20 Plus 5G,SAM-GALAXYS20-559,"Samsung Galaxy S20 Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00560,BRD045,CAT002,Samsung Galaxy S20 Ultra 5G,SAM-GALAXYS20-560,"Samsung Galaxy S20 Ultra 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00561,BRD045,CAT002,Samsung Galaxy S21,SAM-GALAXYS21-561,"Samsung Galaxy S21 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00562,BRD045,CAT002,Samsung Galaxy S21 FE 5G,SAM-GALAXYS21-562,"Samsung Galaxy S21 FE 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00563,BRD045,CAT002,Samsung Galaxy S21 Plus,SAM-GALAXYS21-563,"Samsung Galaxy S21 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00564,BRD045,CAT002,Samsung Galaxy S21 Ultra,SAM-GALAXYS21-564,"Samsung Galaxy S21 Ultra is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00565,BRD045,CAT002,Samsung Galaxy S21 Ultra 5G,SAM-GALAXYS21-565,"Samsung Galaxy S21 Ultra 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00566,BRD045,CAT002,Samsung Galaxy S22 5G,SAM-GALAXYS22-566,"Samsung Galaxy S22 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00567,BRD045,CAT002,Samsung Galaxy S22 FE 5G,SAM-GALAXYS22-567,"Samsung Galaxy S22 FE 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00568,BRD045,CAT002,Samsung Galaxy S22 Plus 5G,SAM-GALAXYS22-568,"Samsung Galaxy S22 Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00569,BRD045,CAT002,Samsung Galaxy S22 Ultra 5G,SAM-GALAXYS22-569,"Samsung Galaxy S22 Ultra 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00570,BRD045,CAT002,Samsung Galaxy S23,SAM-GALAXYS23-570,"Samsung Galaxy S23 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00571,BRD045,CAT002,Samsung Galaxy S23 FE 5G,SAM-GALAXYS23-571,"Samsung Galaxy S23 FE 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00572,BRD045,CAT002,Samsung Galaxy S23 Plus,SAM-GALAXYS23-572,"Samsung Galaxy S23 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00573,BRD045,CAT002,Samsung Galaxy S23 Ultra 5G,SAM-GALAXYS23-573,"Samsung Galaxy S23 Ultra 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00574,BRD045,CAT002,Samsung Galaxy S24 Ultra,SAM-GALAXYS24-574,"Samsung Galaxy S24 Ultra is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00575,BRD045,CAT002,Samsung Galaxy S9 Plus,SAM-GALAXYS9-575,"Samsung Galaxy S9 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00576,BRD045,CAT004,Samsung Galaxy Z Flip 3,SAM-GALAXYZ-576,"Samsung Galaxy Z Flip 3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00577,BRD045,CAT004,Samsung Galaxy Z Flip 4 5G,SAM-GALAXYZ-577,"Samsung Galaxy Z Flip 4 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00578,BRD045,CAT004,Samsung Galaxy Z Fold 3,SAM-GALAXYZ-578,"Samsung Galaxy Z Fold 3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00579,BRD045,CAT004,Samsung Galaxy Z Fold 4,SAM-GALAXYZ-579,"Samsung Galaxy Z Fold 4 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00580,BRD045,CAT003,Samsung Guru E1200,SAM-GURUE1200-580,"Samsung Guru E1200 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00581,BRD045,CAT003,Samsung Guru GT-E1215,SAM-GURUGT-E1215-581,"Samsung Guru GT-E1215 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00582,BRD045,CAT003,Samsung Guru Music 2 Dual Sim,SAM-GURUMUSIC-582,"Samsung Guru Music 2 Dual Sim is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00583,BRD046,CAT002,Sharp Aquos R5G,SHA-AQUOSR5G-583,"Sharp Aquos R5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00584,BRD047,CAT002,Sony Xperia 1 II,SON-XPERIA1-584,"Sony Xperia 1 II is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00585,BRD047,CAT002,Sony Xperia 1 IV,SON-XPERIA1-585,"Sony Xperia 1 IV is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00586,BRD047,CAT002,Sony Xperia 10 II,SON-XPERIA10-586,"Sony Xperia 10 II is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00587,BRD047,CAT002,Sony Xperia 10 III Lite 5G,SON-XPERIA10-587,"Sony Xperia 10 III Lite 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00588,BRD047,CAT002,Sony Xperia 5 II,SON-XPERIA5-588,"Sony Xperia 5 II is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00589,BRD047,CAT002,Sony Xperia 5 IV 5G,SON-XPERIA5-589,"Sony Xperia 5 IV 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00590,BRD047,CAT002,Sony Xperia Ace IV,SON-XPERIAACE-590,"Sony Xperia Ace IV is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00591,BRD047,CAT002,Sony Xperia L5 5G,SON-XPERIAL5-591,"Sony Xperia L5 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00592,BRD047,CAT002,Sony Xperia Pro-I,SON-XPERIAPRO-I-592,"Sony Xperia Pro-I is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00593,BRD048,CAT002,TCL Ion X,TCL-IONX-593,"TCL Ion X is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00594,BRD049,CAT002,Tecno Camon 18,TEC-CAMON18-594,"Tecno Camon 18 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00595,BRD049,CAT002,Tecno Camon 19,TEC-CAMON19-595,"Tecno Camon 19 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00596,BRD049,CAT002,Tecno Camon 19 Neo,TEC-CAMON19-596,"Tecno Camon 19 Neo is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00597,BRD049,CAT002,Tecno Camon 19 Pro,TEC-CAMON19-597,"Tecno Camon 19 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00598,BRD049,CAT002,Tecno Camon 19 Pro 5G,TEC-CAMON19-598,"Tecno Camon 19 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00599,BRD049,CAT002,Tecno Camon 19 Pro Mondrian Edition,TEC-CAMON19-599,"Tecno Camon 19 Pro Mondrian Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00600,BRD049,CAT002,Tecno Camon 20 Premier,TEC-CAMON20-600,"Tecno Camon 20 Premier is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00601,BRD049,CAT002,Tecno Phantom X,TEC-PHANTOMX-601,"Tecno Phantom X is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00602,BRD049,CAT002,Tecno Phantom X Pro,TEC-PHANTOMX-602,"Tecno Phantom X Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00603,BRD049,CAT002,Tecno Phantom X2,TEC-PHANTOMX2-603,"Tecno Phantom X2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00604,BRD049,CAT002,Tecno Phantom X2 Pro,TEC-PHANTOMX2-604,"Tecno Phantom X2 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00605,BRD049,CAT002,Tecno Pop 5 Go,TEC-POP5-605,"Tecno Pop 5 Go is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00606,BRD049,CAT002,Tecno Pop 6 Pro,TEC-POP6-606,"Tecno Pop 6 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00607,BRD049,CAT002,Tecno Pova 2,TEC-POVA2-607,"Tecno Pova 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00608,BRD049,CAT002,Tecno Pova 3,TEC-POVA3-608,"Tecno Pova 3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00609,BRD049,CAT002,Tecno Pova 4,TEC-POVA4-609,"Tecno Pova 4 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00610,BRD049,CAT002,Tecno Pova 4 Pro,TEC-POVA4-610,"Tecno Pova 4 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00611,BRD049,CAT002,Tecno Pova 5G,TEC-POVA5G-611,"Tecno Pova 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00612,BRD049,CAT002,Tecno Pova Neo 2,TEC-POVANEO-612,"Tecno Pova Neo 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00613,BRD049,CAT002,Tecno Pova Neo 5G,TEC-POVANEO-613,"Tecno Pova Neo 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00614,BRD049,CAT002,Tecno Spark 8,TEC-SPARK8-614,"Tecno Spark 8 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00615,BRD049,CAT002,Tecno Spark 8 Pro,TEC-SPARK8-615,"Tecno Spark 8 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00616,BRD049,CAT002,Tecno Spark 8C,TEC-SPARK8C-616,"Tecno Spark 8C is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00617,BRD049,CAT002,Tecno Spark 8T,TEC-SPARK8T-617,"Tecno Spark 8T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00618,BRD049,CAT002,Tecno Spark 9,TEC-SPARK9-618,"Tecno Spark 9 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00619,BRD049,CAT002,Tecno Spark 9 Pro,TEC-SPARK9-619,"Tecno Spark 9 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00620,BRD049,CAT002,Tecno Spark 9T,TEC-SPARK9T-620,"Tecno Spark 9T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00621,BRD049,CAT002,Tecno Spark Go 2022,TEC-SPARKGO-621,"Tecno Spark Go 2022 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00622,BRD049,CAT002,Tecno Spark Go 2023,TEC-SPARKGO-622,"Tecno Spark Go 2023 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00623,BRD050,CAT002,Tesla Pi Phone,TES-PIPHONE-623,"Tesla Pi Phone is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00624,BRD051,CAT002,Vertu Signature Touch,VER-SIGNATURETOUCH-624,"Vertu Signature Touch is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00625,BRD052,CAT002,Vivo S1 Pro,VIV-S1PRO-625,"Vivo S1 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00626,BRD052,CAT002,Vivo S16,VIV-S16-626,"Vivo S16 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00627,BRD052,CAT002,Vivo S16 Pro,VIV-S16PRO-627,"Vivo S16 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00628,BRD052,CAT002,Vivo S17 Pro,VIV-S17PRO-628,"Vivo S17 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00629,BRD052,CAT002,Vivo T1 44W,VIV-T144W-629,"Vivo T1 44W is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00630,BRD052,CAT002,Vivo T1 5G,VIV-T15G-630,"Vivo T1 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00631,BRD052,CAT002,Vivo T1 Pro,VIV-T1PRO-631,"Vivo T1 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00632,BRD052,CAT002,Vivo T1 Pro 5G,VIV-T1PRO-632,"Vivo T1 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00633,BRD052,CAT002,Vivo T1x,VIV-T1X-633,"Vivo T1x is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00634,BRD052,CAT002,Vivo T1x 4G,VIV-T1X4G-634,"Vivo T1x 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00635,BRD052,CAT002,Vivo T2 5G,VIV-T25G-635,"Vivo T2 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00636,BRD052,CAT002,Vivo T2 Pro 5G,VIV-T2PRO-636,"Vivo T2 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00637,BRD052,CAT002,Vivo T2x 5G,VIV-T2X5G-637,"Vivo T2x 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00638,BRD052,CAT002,Vivo T3 Pro,VIV-T3PRO-638,"Vivo T3 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00639,BRD052,CAT002,Vivo U3,VIV-U3-639,"Vivo U3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00640,BRD052,CAT002,Vivo U3x,VIV-U3X-640,"Vivo U3x is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00641,BRD052,CAT002,Vivo V11i,VIV-V11I-641,"Vivo V11i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00642,BRD052,CAT002,Vivo V15 Pro,VIV-V15PRO-642,"Vivo V15 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00643,BRD052,CAT002,Vivo V19,VIV-V19-643,"Vivo V19 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00644,BRD052,CAT002,Vivo V20,VIV-V20-644,"Vivo V20 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00645,BRD052,CAT002,Vivo V20 Pro,VIV-V20PRO-645,"Vivo V20 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00646,BRD052,CAT002,Vivo V20 SE,VIV-V20SE-646,"Vivo V20 SE is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00647,BRD052,CAT002,Vivo V21,VIV-V21-647,"Vivo V21 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00648,BRD052,CAT002,Vivo V21 5G,VIV-V215G-648,"Vivo V21 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00649,BRD052,CAT002,Vivo V21 Pro,VIV-V21PRO-649,"Vivo V21 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00650,BRD052,CAT002,Vivo V21s,VIV-V21S-650,"Vivo V21s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00651,BRD052,CAT002,Vivo V23 5G,VIV-V235G-651,"Vivo V23 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00652,BRD052,CAT002,Vivo V23 Pro 5G,VIV-V23PRO-652,"Vivo V23 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00653,BRD052,CAT002,Vivo V23e,VIV-V23E-653,"Vivo V23e is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00654,BRD052,CAT002,Vivo V23e 5G,VIV-V23E5G-654,"Vivo V23e 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00655,BRD052,CAT002,Vivo V25,VIV-V25-655,"Vivo V25 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00656,BRD052,CAT002,Vivo V25 5G,VIV-V255G-656,"Vivo V25 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00657,BRD052,CAT002,Vivo V25 Pro,VIV-V25PRO-657,"Vivo V25 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00658,BRD052,CAT002,Vivo V25 Pro 5G,VIV-V25PRO-658,"Vivo V25 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00659,BRD052,CAT002,Vivo V25e,VIV-V25E-659,"Vivo V25e is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00660,BRD052,CAT002,Vivo V26 Pro,VIV-V26PRO-660,"Vivo V26 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00661,BRD052,CAT002,Vivo V27,VIV-V27-661,"Vivo V27 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00662,BRD052,CAT002,Vivo V27 Pro,VIV-V27PRO-662,"Vivo V27 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00663,BRD052,CAT002,Vivo V28,VIV-V28-663,"Vivo V28 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00664,BRD052,CAT002,Vivo V29,VIV-V29-664,"Vivo V29 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00665,BRD052,CAT004,Vivo X Fold 2,VIV-XFOLD-665,"Vivo X Fold 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00666,BRD052,CAT004,Vivo X Fold 5G,VIV-XFOLD-666,"Vivo X Fold 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00667,BRD052,CAT004,Vivo X Fold Plus,VIV-XFOLD-667,"Vivo X Fold Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00668,BRD052,CAT002,Vivo X Note 5G,VIV-XNOTE-668,"Vivo X Note 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00669,BRD052,CAT002,Vivo X80 5G,VIV-X805G-669,"Vivo X80 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00670,BRD052,CAT002,Vivo X80 Pro 5G,VIV-X80PRO-670,"Vivo X80 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00671,BRD052,CAT002,Vivo X80 Pro Plus 5G,VIV-X80PRO-671,"Vivo X80 Pro Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00672,BRD052,CAT002,Vivo X90 5G,VIV-X905G-672,"Vivo X90 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00673,BRD052,CAT002,Vivo X90 Pro 5G,VIV-X90PRO-673,"Vivo X90 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00674,BRD052,CAT002,Vivo X90 Pro Plus 5G,VIV-X90PRO-674,"Vivo X90 Pro Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00675,BRD052,CAT002,Vivo Y01,VIV-Y01-675,"Vivo Y01 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00676,BRD052,CAT002,Vivo Y01A,VIV-Y01A-676,"Vivo Y01A is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00677,BRD052,CAT002,Vivo Y02,VIV-Y02-677,"Vivo Y02 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00678,BRD052,CAT002,Vivo Y02s,VIV-Y02S-678,"Vivo Y02s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00679,BRD052,CAT002,Vivo Y10,VIV-Y10-679,"Vivo Y10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00680,BRD052,CAT002,Vivo Y100,VIV-Y100-680,"Vivo Y100 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00681,BRD052,CAT002,Vivo Y11,VIV-Y11-681,"Vivo Y11 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00682,BRD052,CAT002,Vivo Y12,VIV-Y12-682,"Vivo Y12 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00683,BRD052,CAT002,Vivo Y12a,VIV-Y12A-683,"Vivo Y12a is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00684,BRD052,CAT002,Vivo Y12G,VIV-Y12G-684,"Vivo Y12G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00685,BRD052,CAT002,Vivo Y15,VIV-Y15-685,"Vivo Y15 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00686,BRD052,CAT002,Vivo Y15C,VIV-Y15C-686,"Vivo Y15C is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00687,BRD052,CAT002,Vivo Y15s,VIV-Y15S-687,"Vivo Y15s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00688,BRD052,CAT002,Vivo Y16,VIV-Y16-688,"Vivo Y16 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00689,BRD052,CAT002,Vivo Y19,VIV-Y19-689,"Vivo Y19 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00690,BRD052,CAT002,Vivo Y20G,VIV-Y20G-690,"Vivo Y20G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00691,BRD052,CAT002,Vivo Y21,VIV-Y21-691,"Vivo Y21 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00692,BRD052,CAT002,Vivo Y21 2021,VIV-Y212021-692,"Vivo Y21 2021 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00693,BRD052,CAT002,Vivo Y21e,VIV-Y21E-693,"Vivo Y21e is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00694,BRD052,CAT002,Vivo Y21s,VIV-Y21S-694,"Vivo Y21s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00695,BRD052,CAT002,Vivo Y21T,VIV-Y21T-695,"Vivo Y21T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00696,BRD052,CAT002,Vivo Y22,VIV-Y22-696,"Vivo Y22 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00697,BRD052,CAT002,Vivo Y22s,VIV-Y22S-697,"Vivo Y22s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00698,BRD052,CAT002,Vivo Y25,VIV-Y25-698,"Vivo Y25 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00699,BRD052,CAT002,Vivo Y3,VIV-Y3-699,"Vivo Y3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00700,BRD052,CAT002,Vivo Y33s,VIV-Y33S-700,"Vivo Y33s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00701,BRD052,CAT002,Vivo Y33T,VIV-Y33T-701,"Vivo Y33T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00702,BRD052,CAT002,Vivo Y35,VIV-Y35-702,"Vivo Y35 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00703,BRD052,CAT002,Vivo Y35 5G,VIV-Y355G-703,"Vivo Y35 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00704,BRD052,CAT002,Vivo Y53s,VIV-Y53S-704,"Vivo Y53s is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00705,BRD052,CAT002,Vivo Y53t,VIV-Y53T-705,"Vivo Y53t is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00706,BRD052,CAT002,Vivo Y55 4G,VIV-Y554G-706,"Vivo Y55 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00707,BRD052,CAT002,Vivo Y55 5G,VIV-Y555G-707,"Vivo Y55 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00708,BRD052,CAT002,Vivo Y55S,VIV-Y55S-708,"Vivo Y55S is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00709,BRD052,CAT002,Vivo Y55s 2023,VIV-Y55S2023-709,"Vivo Y55s 2023 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00710,BRD052,CAT002,Vivo Y55s 5G,VIV-Y55S5G-710,"Vivo Y55s 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00711,BRD052,CAT002,Vivo Y71,VIV-Y71-711,"Vivo Y71 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00712,BRD052,CAT002,Vivo Y73 2021,VIV-Y732021-712,"Vivo Y73 2021 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00713,BRD052,CAT002,Vivo Y73T,VIV-Y73T-713,"Vivo Y73T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00714,BRD052,CAT002,Vivo Y75 4G,VIV-Y754G-714,"Vivo Y75 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00715,BRD052,CAT002,Vivo Y75 5G,VIV-Y755G-715,"Vivo Y75 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00716,BRD052,CAT002,Vivo Y77 5G,VIV-Y775G-716,"Vivo Y77 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00717,BRD052,CAT002,Vivo Y78 5G,VIV-Y785G-717,"Vivo Y78 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00718,BRD052,CAT002,Vivo Y91c,VIV-Y91C-718,"Vivo Y91c is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00719,BRD052,CAT002,Vivo Y93,VIV-Y93-719,"Vivo Y93 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00720,BRD052,CAT002,Vivo Y95,VIV-Y95-720,"Vivo Y95 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",19999.99
+PRD00721,BRD045,CAT002,Xiaomi 11i 5G,XIA-11I5G-721,"Xiaomi 11i 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00722,BRD045,CAT002,Xiaomi 11i HyperCharge 5G,XIA-11IHYPERCHARGE-722,"Xiaomi 11i HyperCharge 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00723,BRD045,CAT002,Xiaomi 11T Pro 5G,XIA-11TPRO-723,"Xiaomi 11T Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00724,BRD045,CAT002,Xiaomi 12 Lite 5G,XIA-12LITE-724,"Xiaomi 12 Lite 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00725,BRD045,CAT002,Xiaomi 12 Pro 5G,XIA-12PRO-725,"Xiaomi 12 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00726,BRD045,CAT002,Xiaomi 12 Ultra 5G,XIA-12ULTRA-726,"Xiaomi 12 Ultra 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00727,BRD045,CAT002,Xiaomi 12S Ultra,XIA-12SULTRA-727,"Xiaomi 12S Ultra is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00728,BRD045,CAT002,Xiaomi 12T,XIA-12T-728,"Xiaomi 12T is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00729,BRD045,CAT002,Xiaomi 12T Pro 5G,XIA-12TPRO-729,"Xiaomi 12T Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00730,BRD045,CAT002,Xiaomi 13 5G,XIA-135G-730,"Xiaomi 13 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00731,BRD045,CAT002,Xiaomi 13 Pro 5G,XIA-13PRO-731,"Xiaomi 13 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00732,BRD045,CAT002,Xiaomi 13 Ultra 5G,XIA-13ULTRA-732,"Xiaomi 13 Ultra 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00733,BRD045,CAT002,Xiaomi 14,XIA-14-733,"Xiaomi 14 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00734,BRD045,CAT002,Xiaomi Civi 2,XIA-CIVI2-734,"Xiaomi Civi 2 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00735,BRD045,CAT002,Xiaomi Civi 3,XIA-CIVI3-735,"Xiaomi Civi 3 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00736,BRD045,CAT002,Xiaomi Mi 10 5G,XIA-MI10-736,"Xiaomi Mi 10 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00737,BRD045,CAT002,Xiaomi Mi 10T 5G,XIA-MI10T-737,"Xiaomi Mi 10T 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00738,BRD045,CAT002,Xiaomi Mi 10T Pro 5G,XIA-MI10T-738,"Xiaomi Mi 10T Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00739,BRD045,CAT002,Xiaomi Mi 11 Lite,XIA-MI11-739,"Xiaomi Mi 11 Lite is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00740,BRD045,CAT002,Xiaomi Mi 11 Lite NE 5G,XIA-MI11-740,"Xiaomi Mi 11 Lite NE 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00741,BRD045,CAT002,Xiaomi Mi 11i 5G,XIA-MI11I-741,"Xiaomi Mi 11i 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00742,BRD045,CAT002,Xiaomi Mi 11T Pro 5G,XIA-MI11T-742,"Xiaomi Mi 11T Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00743,BRD045,CAT002,Xiaomi Mi 11X,XIA-MI11X-743,"Xiaomi Mi 11X is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00744,BRD045,CAT002,Xiaomi Mi 11X 5G,XIA-MI11X-744,"Xiaomi Mi 11X 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00745,BRD045,CAT002,Xiaomi Mi 11X Pro,XIA-MI11X-745,"Xiaomi Mi 11X Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00746,BRD045,CAT002,Xiaomi Mi 12 5G,XIA-MI12-746,"Xiaomi Mi 12 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00747,BRD045,CAT002,Xiaomi Mi Mix Alpha,XIA-MIMIX-747,"Xiaomi Mi Mix Alpha is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00748,BRD045,CAT004,Xiaomi Mi Mix Fold,XIA-MIMIX-748,"Xiaomi Mi Mix Fold is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00749,BRD045,CAT004,Xiaomi Mix Fold 2 5G,XIA-MIXFOLD-749,"Xiaomi Mix Fold 2 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00750,BRD045,CAT002,Xiaomi Poco F1,XIA-POCOF1-750,"Xiaomi Poco F1 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00751,BRD045,CAT002,Xiaomi Qin 1,XIA-QIN1-751,"Xiaomi Qin 1 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00752,BRD045,CAT002,Xiaomi Redmi 10,XIA-REDMI10-752,"Xiaomi Redmi 10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00753,BRD045,CAT002,Xiaomi Redmi 10 Power,XIA-REDMI10-753,"Xiaomi Redmi 10 Power is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00754,BRD045,CAT002,Xiaomi Redmi 10 Prime,XIA-REDMI10-754,"Xiaomi Redmi 10 Prime is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00755,BRD045,CAT002,Xiaomi Redmi 10 Prime Plus 5G,XIA-REDMI10-755,"Xiaomi Redmi 10 Prime Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00756,BRD045,CAT002,Xiaomi Redmi 10A,XIA-REDMI10A-756,"Xiaomi Redmi 10A is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00757,BRD045,CAT002,Xiaomi Redmi 10A Sport,XIA-REDMI10A-757,"Xiaomi Redmi 10A Sport is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00758,BRD045,CAT002,Xiaomi Redmi 10C,XIA-REDMI10C-758,"Xiaomi Redmi 10C is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00759,BRD045,CAT002,Xiaomi Redmi 11 Prime,XIA-REDMI11-759,"Xiaomi Redmi 11 Prime is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00760,BRD045,CAT002,Xiaomi Redmi 11 Prime 5G,XIA-REDMI11-760,"Xiaomi Redmi 11 Prime 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00761,BRD045,CAT002,Xiaomi Redmi 13 Prime 5G,XIA-REDMI13-761,"Xiaomi Redmi 13 Prime 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00762,BRD045,CAT002,Xiaomi Redmi 20X,XIA-REDMI20X-762,"Xiaomi Redmi 20X is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00763,BRD045,CAT002,Xiaomi Redmi 8,XIA-REDMI8-763,"Xiaomi Redmi 8 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00764,BRD045,CAT002,Xiaomi Redmi 9,XIA-REDMI9-764,"Xiaomi Redmi 9 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00765,BRD045,CAT002,Xiaomi Redmi 9 Activ,XIA-REDMI9-765,"Xiaomi Redmi 9 Activ is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00766,BRD045,CAT002,Xiaomi Redmi 9 Power,XIA-REDMI9-766,"Xiaomi Redmi 9 Power is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00767,BRD045,CAT002,Xiaomi Redmi 9A,XIA-REDMI9A-767,"Xiaomi Redmi 9A is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00768,BRD045,CAT002,Xiaomi Redmi 9A Sport,XIA-REDMI9A-768,"Xiaomi Redmi 9A Sport is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00769,BRD045,CAT002,Xiaomi Redmi 9i,XIA-REDMI9I-769,"Xiaomi Redmi 9i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00770,BRD045,CAT002,Xiaomi Redmi 9i Sport,XIA-REDMI9I-770,"Xiaomi Redmi 9i Sport is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00771,BRD045,CAT002,Xiaomi Redmi A1,XIA-REDMIA1-771,"Xiaomi Redmi A1 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00772,BRD045,CAT002,Xiaomi Redmi A1 Plus,XIA-REDMIA1-772,"Xiaomi Redmi A1 Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",69999.99
+PRD00773,BRD045,CAT002,Xiaomi Redmi K20 Pro Signature Edition,XIA-REDMIK20-773,"Xiaomi Redmi K20 Pro Signature Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00774,BRD045,CAT002,Xiaomi Redmi K50 5G,XIA-REDMIK50-774,"Xiaomi Redmi K50 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00775,BRD045,CAT002,Xiaomi Redmi K50 Ultra 5G,XIA-REDMIK50-775,"Xiaomi Redmi K50 Ultra 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00776,BRD045,CAT002,Xiaomi Redmi K50i,XIA-REDMIK50I-776,"Xiaomi Redmi K50i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00777,BRD045,CAT002,Xiaomi Redmi K50i 5G,XIA-REDMIK50I-777,"Xiaomi Redmi K50i 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00778,BRD045,CAT002,Xiaomi Redmi K60,XIA-REDMIK60-778,"Xiaomi Redmi K60 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00779,BRD045,CAT002,Xiaomi Redmi K60 Gaming Edition,XIA-REDMIK60-779,"Xiaomi Redmi K60 Gaming Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00780,BRD045,CAT002,Xiaomi Redmi K60 Pro,XIA-REDMIK60-780,"Xiaomi Redmi K60 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00781,BRD045,CAT002,Xiaomi Redmi K60E,XIA-REDMIK60E-781,"Xiaomi Redmi K60E is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00782,BRD045,CAT002,Xiaomi Redmi K60i,XIA-REDMIK60I-782,"Xiaomi Redmi K60i is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00783,BRD045,CAT002,Xiaomi Redmi Note 10,XIA-REDMINOTE-783,"Xiaomi Redmi Note 10 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00784,BRD045,CAT002,Xiaomi Redmi Note 10 5G,XIA-REDMINOTE-784,"Xiaomi Redmi Note 10 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00785,BRD045,CAT002,Xiaomi Redmi Note 10 Lite,XIA-REDMINOTE-785,"Xiaomi Redmi Note 10 Lite is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00786,BRD045,CAT002,Xiaomi Redmi Note 10 Pro,XIA-REDMINOTE-786,"Xiaomi Redmi Note 10 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00787,BRD045,CAT002,Xiaomi Redmi Note 10 Pro 5G,XIA-REDMINOTE-787,"Xiaomi Redmi Note 10 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00788,BRD045,CAT002,Xiaomi Redmi Note 10 Pro Max,XIA-REDMINOTE-788,"Xiaomi Redmi Note 10 Pro Max is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00789,BRD045,CAT002,Xiaomi Redmi Note 10S,XIA-REDMINOTE-789,"Xiaomi Redmi Note 10S is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00790,BRD045,CAT002,Xiaomi Redmi Note 10T 5G,XIA-REDMINOTE-790,"Xiaomi Redmi Note 10T 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00791,BRD045,CAT002,Xiaomi Redmi Note 11,XIA-REDMINOTE-791,"Xiaomi Redmi Note 11 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00792,BRD045,CAT002,Xiaomi Redmi Note 11 5G,XIA-REDMINOTE-792,"Xiaomi Redmi Note 11 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00793,BRD045,CAT002,Xiaomi Redmi Note 11 Pro 4G,XIA-REDMINOTE-793,"Xiaomi Redmi Note 11 Pro 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00794,BRD045,CAT002,Xiaomi Redmi Note 11 Pro 5G,XIA-REDMINOTE-794,"Xiaomi Redmi Note 11 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00795,BRD045,CAT002,Xiaomi Redmi Note 11 Pro Max 5G,XIA-REDMINOTE-795,"Xiaomi Redmi Note 11 Pro Max 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00796,BRD045,CAT002,Xiaomi Redmi Note 11 Pro Plus 5G,XIA-REDMINOTE-796,"Xiaomi Redmi Note 11 Pro Plus 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00797,BRD045,CAT002,Xiaomi Redmi Note 11E 5G,XIA-REDMINOTE-797,"Xiaomi Redmi Note 11E 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00798,BRD045,CAT002,Xiaomi Redmi Note 11R,XIA-REDMINOTE-798,"Xiaomi Redmi Note 11R is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00799,BRD045,CAT002,Xiaomi Redmi Note 11S,XIA-REDMINOTE-799,"Xiaomi Redmi Note 11S is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00800,BRD045,CAT002,Xiaomi Redmi Note 11SE,XIA-REDMINOTE-800,"Xiaomi Redmi Note 11SE is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00801,BRD045,CAT002,Xiaomi Redmi Note 11T 5G,XIA-REDMINOTE-801,"Xiaomi Redmi Note 11T 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00802,BRD045,CAT002,Xiaomi Redmi Note 11T Pro 5G,XIA-REDMINOTE-802,"Xiaomi Redmi Note 11T Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00803,BRD045,CAT002,Xiaomi Redmi Note 12,XIA-REDMINOTE-803,"Xiaomi Redmi Note 12 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00804,BRD045,CAT002,Xiaomi Redmi Note 12 4G,XIA-REDMINOTE-804,"Xiaomi Redmi Note 12 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00805,BRD045,CAT002,Xiaomi Redmi Note 12 Discovery Edition,XIA-REDMINOTE-805,"Xiaomi Redmi Note 12 Discovery Edition is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00806,BRD045,CAT002,Xiaomi Redmi Note 12 Explorer,XIA-REDMINOTE-806,"Xiaomi Redmi Note 12 Explorer is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00807,BRD045,CAT002,Xiaomi Redmi Note 12 Pro,XIA-REDMINOTE-807,"Xiaomi Redmi Note 12 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00808,BRD045,CAT002,Xiaomi Redmi Note 12 Pro 4G,XIA-REDMINOTE-808,"Xiaomi Redmi Note 12 Pro 4G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00809,BRD045,CAT002,Xiaomi Redmi Note 12 Pro 5G,XIA-REDMINOTE-809,"Xiaomi Redmi Note 12 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00810,BRD045,CAT002,Xiaomi Redmi Note 12 Pro Max 5G,XIA-REDMINOTE-810,"Xiaomi Redmi Note 12 Pro Max 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00811,BRD045,CAT002,Xiaomi Redmi Note 12 Pro Plus,XIA-REDMINOTE-811,"Xiaomi Redmi Note 12 Pro Plus is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00812,BRD045,CAT002,Xiaomi Redmi Note 12 Turbo,XIA-REDMINOTE-812,"Xiaomi Redmi Note 12 Turbo is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00813,BRD045,CAT002,Xiaomi Redmi Note 12T 5G,XIA-REDMINOTE-813,"Xiaomi Redmi Note 12T 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00814,BRD045,CAT002,Xiaomi Redmi Note 13 Pro 5G,XIA-REDMINOTE-814,"Xiaomi Redmi Note 13 Pro 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00815,BRD045,CAT002,Xiaomi Redmi Note 13 Pro Max 5G,XIA-REDMINOTE-815,"Xiaomi Redmi Note 13 Pro Max 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00816,BRD045,CAT002,Xiaomi Redmi Note 4,XIA-REDMINOTE-816,"Xiaomi Redmi Note 4 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00817,BRD045,CAT002,Xiaomi Redmi Note 8 2021,XIA-REDMINOTE-817,"Xiaomi Redmi Note 8 2021 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00818,BRD045,CAT002,Xiaomi Redmi Note 8 Pro,XIA-REDMINOTE-818,"Xiaomi Redmi Note 8 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00819,BRD045,CAT002,Xiaomi Redmi Note 9,XIA-REDMINOTE-819,"Xiaomi Redmi Note 9 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",24999.99
+PRD00820,BRD045,CAT002,Xiaomi Redmi Note 9 Pro,XIA-REDMINOTE-820,"Xiaomi Redmi Note 9 Pro is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",79999.99
+PRD00821,BRD045,CAT002,Xiaomi Redmi Note 9 Pro Max,XIA-REDMINOTE-821,"Xiaomi Redmi Note 9 Pro Max is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99
+PRD00822,BRD046,CAT004,XTouch F40 Flip,XTO-F40FLIP-822,"XTouch F40 Flip is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00823,BRD052,CAT002,Zanco Tiny T1,ZAN-TINYT1-823,"Zanco Tiny T1 is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00824,BRD047,CAT002,ZTE Axon 30S,ZTE-AXON30S-824,"ZTE Axon 30S is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",14999.99
+PRD00825,BRD047,CAT002,ZTE Axon 40 Ultra 5G,ZTE-AXON40-825,"ZTE Axon 40 Ultra 5G is a feature-rich mobile phone offering solid performance, stylish design, and reliable daily usage.",99999.99

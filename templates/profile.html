@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                ACCOUNT
+            </div>
+            <h1>
+                My Profile
+            </h1>
+            <p>
+                Manage your application identity and sign-in credentials.
+            </p>
+        </div>
+        <a class="outline-btn" href="/logout">Sign out</a>
+    </div>
+    <div class="profile-layout">
+        <section class="card profile-card">
+            <div class="profile-hero">
+                <div class="profile-avatar">
+                    {{profile.name[:1]}}
+                </div>
+                <div>
+                    <h2>
+                        {{profile.name}}
+                    </h2>
+                    <span>{{profile.role}} • @{{profile.username}}</span>
+                </div>
+            </div>
+            <form method="post" class="profile-form">
+                <label>
+                    Username<input value="{{profile.username}}" disabled>
+                </label>
+                <label>
+                    Role<input value="{{profile.role}}" disabled>
+                </label>
+                <label>
+                    Display name<input name="name" value="{{profile.name}}" required>
+                </label>
+                <label>
+                    New password <span class="muted">leave blank to keep current password</span><input type="password" name="new_password" minlength="6" placeholder="Minimum 6 characters">
+                </label>
+                <button class="yellow-btn" type="submit">
+                    Save profile
+                </button>
+            </form>
+        </section>
+        <section class="card">
+            <div class="eyebrow">
+                YOUR ACCESS
+            </div>
+            <h2>
+                {{profile.role}} permissions
+            </h2>
+            {% if profile.role=='Admin' %}
+                <ul class="permission-list">
+                    <li>
+                        Manage employees and roles
+                    </li>
+                    <li>
+                        Manage products, suppliers and system settings
+                    </li>
+                    <li>
+                        Retrain Data Science models
+                    </li>
+                    <li>
+                        Approve operational actions
+                    </li>
+                </ul>
+            {% elif profile.role=='Manager' %}
+                <ul class="permission-list">
+                    <li>
+                        Manage stock and purchasing
+                    </li>
+                    <li>
+                        Review decisions, analytics and reports
+                    </li>
+                    <li>
+                        Approve operational actions
+                    </li>
+                    <li>
+                        Record daily inventory activity
+                    </li>
+                </ul>
+            {% else %}
+                <ul class="permission-list">
+                    <li>
+                        Record sales
+                    </li>
+                    <li>
+                        Scan and update inventory
+                    </li>
+                    <li>
+                        View operational information
+                    </li>
+                    <li>
+                        Use the Inventory Assistant
+                    </li>
+                </ul>
+            {% endif %}
+        </section>
+    </div>
+{% endblock %}

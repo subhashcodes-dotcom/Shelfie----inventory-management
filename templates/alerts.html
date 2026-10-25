@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                ACTIONABLE NOTIFICATIONS
+            </div>
+            <h1>
+                {{heading}}
+            </h1>
+            <p>
+                {{description}}
+            </p>
+        </div>
+        <div class="hero-actions">
+            <a class="outline-btn" href="/alerts">All alerts</a><a class="outline-btn" href="/decision-center">Decision Center →</a>
+        </div>
+    </div>
+    <div class="alert-board">
+        {% for a in alerts %}
+            <div class="big-alert {{a.level}}">
+                <div class="big-alert-icon">
+                    {% if a.level=='critical' %}
+                        !
+                    {% else %}
+                        i
+                    {% endif %}
+                </div>
+                <div>
+                    <b>{{a.title}}</b><span>{{a.detail}}</span>
+                </div>
+                <a href="{{a.url or '/decision-center'}}">Review decision →</a>
+            </div>
+        {% else %}
+            <div class="empty">
+                No {{kind if kind!='all' else 'active'}} alerts right now.
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

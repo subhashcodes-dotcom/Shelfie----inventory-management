@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                ACCESS CONTROL
+            </div>
+            <h1>
+                Employees & Roles
+            </h1>
+            <p>
+                Admins can create and remove application accounts. Managers and Staff receive only the permissions assigned to their role.
+            </p>
+        </div>
+    </div>
+    <div class="role-grid">
+        {% for role,desc in [('Admin','Users, products, suppliers, system and ML controls.'),('Manager','Stock, purchasing, approvals, reports and decisions.'),('Staff','Sales, scanning, stock updates and daily operations.') ] %}
+            <div class="role-card">
+                <div class="role-icon">
+                    {{role[:1]}}
+                </div>
+                <b>{{role}}</b><span>{{desc}}</span>
+            </div>
+        {% endfor %}
+    </div>
+    <section class="card" style="margin-bottom:20px">
+        <div class="card-head">
+            <div>
+                <div class="eyebrow">
+                    ADMIN ONLY
+                </div>
+                <h2>
+                    Create employee account
+                </h2>
+            </div>
+        </div>
+        <form method="post" action="/employees/add" class="form-grid">
+            <label>
+                Username<input name="username" placeholder="e.g. rahul.s" required>
+            </label>
+            <label>
+                Full name<input name="name" placeholder="Employee name" required>
+            </label>
+            <label>
+                Role<select name="role"><option>Staff</option><option>Manager</option><option>Admin</option></select>
+            </label>
+            <label>
+                Password<input type="password" name="password" minlength="6" placeholder="Minimum 6 characters" required>
+            </label>
+            <div style="display:flex;align-items:end">
+                <button class="yellow-btn" type="submit">
+                    + Create Account
+                </button>
+            </div>
+        </form>
+    </section>
+    <section class="card">
+        <div class="card-head">
+            <div>
+                <div class="eyebrow">
+                    ACTIVE USERS
+                </div>
+                <h2>
+                    Application accounts
+                </h2>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        User
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Role
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in rows %}
+                    <tr>
+                        <td>
+                            <b>{{r.username}}</b>
+                        </td>
+                        <td>
+                            {{r.name}}
+                        </td>
+                        <td>
+                            <span class="status">{{r.role}}</span>
+                        </td>
+                        <td>
+                            {% if r.username != user.username %}
+                                <form method="post" action="/employees/delete/{{r.username}}" onsubmit="return confirm('Delete this account?')">
+                                    <button class="small-btn danger-btn">
+                                        Delete
+                                    </button>
+                                </form>
+                            {% else %}
+                                <span class="muted">Current account</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </section>
+{% endblock %}

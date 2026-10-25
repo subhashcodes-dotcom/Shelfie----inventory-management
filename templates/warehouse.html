@@ -1,0 +1,262 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="warehouse-shell">
+        <aside class="category-panel">
+            <div class="warehouse-title">
+                Warehouse <span>‹</span>
+            </div>
+            <div class="side-label">
+                CATEGORIES
+            </div>
+            <a class="category-main {% if not category %}selected{% endif %}" href="/warehouse">▦ <span>All Categories</span></a>
+            {% for c in categories %}
+                <a class="category-link {% if category==c.id %}selected{% endif %}" href="/warehouse?category={{c.id}}"><span>{{c.name}}</span><em>{{c.product_count}}</em></a>
+            {% endfor %}
+        </aside>
+        <section class="warehouse-main">
+            <div class="warehouse-head">
+                <div>
+                    <div class="eyebrow">
+                        CATALOG + LIVE STOCK
+                    </div>
+                    <h1>
+                        {% if category %}
+                            {{categories|selectattr('id','equalto',category)|map(attribute='name')|first}}
+                        {% else %}
+                            All Products
+                        {% endif %}
+                    </h1>
+                </div>
+                <div class="warehouse-tools">
+                    <form>
+                        <input name="q" value="{{q}}" placeholder="Search products, SKU, brand..."><input type="hidden" name="category" value="{{category}}">
+                        <button>
+                            ⌕
+                        </button>
+                    </form>
+                    <button type="button" class="filter-btn" onclick="openFilter();return false;">
+                        ☷ Filter
+                    </button>
+                    <button type="button" class="scan-btn" onclick="openScanner();return false;" title="Scan barcode / QR">
+                        ▣
+                    </button>
+                    <button class="yellow-btn" onclick="openAddProduct();return false;">
+                        Add Product
+                    </button>
+                </div>
+            </div>
+            <div class="data-table-wrap">
+                <table class="product-table">
+                    <thead>
+                        <tr>
+                            <th>
+                                Product
+                            </th>
+                            <th>
+                                Code
+                            </th>
+                            <th>
+                                Category
+                            </th>
+                            <th>
+                                Brand
+                            </th>
+                            <th>
+                                Color
+                            </th>
+                            <th>
+                                Remainder
+                            </th>
+                            <th>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for r in rows %}
+                            <tr>
+                                <td>
+                                    <div class="product-cell">
+                                        <div class="product-image">
+                                            {{r.brand[:1] if r.brand else 'P'}}
+                                        </div>
+                                        <div>
+                                            <b>{{r.name}}</b><small>{{r.ram or ''}}{{r.storage or ''}}{{r.sku_variant}}</small>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    {{r.sku}}
+                                </td>
+                                <td>
+                                    {{r.category or '—'}}
+                                </td>
+                                <td>
+                                    <b class="brand-name">{{r.brand or '—'}}</b>
+                                </td>
+                                <td>
+                                    <span class="color-dot"></span>{{r.color or '—'}}
+                                </td>
+                                <td>
+                                    <b class="remainder {% if r.quantity<=r.low_stock_threshold %}critical{% endif %}">{{r.quantity}} pcs.</b>
+                                </td>
+                                <td>
+                                    <button class="dots" onclick="toggleRow('{{r.variant_id}}')">
+                                        ⋮
+                                    </button>
+                                    <div class="row-menu" id="menu-{{r.variant_id}}">
+                                        <button onclick="adjustStock('{{r.variant_id}}',1,'manual adjustment')">
+                                            + Stock
+                                        </button>
+                                        <button onclick="adjustStock('{{r.variant_id}}',1,'customer return')">
+                                            ↩ Return
+                                        </button>
+                                        <button onclick="adjustStock('{{r.variant_id}}',-1,'damaged stock')">
+                                            − Damage
+                                        </button>
+                                        <a href="/decision-center">Decision</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="pagination">
+                <span>Showing {{((page-1)*50)+1 if total else 0}}–{{((page-1)*50)+rows|length}} of {{total}} records</span>
+                {% if page>1 %}
+                    <a href="/warehouse?q={{q|urlencode}}&category={{category}}&page={{page-1}}">‹</a>
+                {% endif %}
+                {% for n in range(1,pages+1) if n<=7 %}
+                    <a class="{% if n==page %}current{% endif %}" href="/warehouse?q={{q|urlencode}}&category={{category}}&page={{n}}">{{n}}</a>
+                {% endfor %}
+                {% if page<pages %}
+                    <a href="/warehouse?q={{q|urlencode}}&category={{category}}&page={{page+1}}">›</a>
+                {% endif %}
+            </div>
+        </section>
+    </div>
+    <div class="modal" id="addProduct">
+        <div class="modal-card">
+            <button class="modal-close" onclick="closeModal('addProduct')">
+                ×
+            </button>
+            <div class="eyebrow">
+                CATALOG MANAGEMENT
+            </div>
+            <h2>
+                Add product
+            </h2>
+            <form method="post" action="/products/add" class="modal-form">
+                <div class="two">
+                    <label>
+                        Product name<input name="name" required>
+                    </label>
+                    <label>
+                        SKU<input name="sku" required>
+                    </label>
+                </div>
+                <div class="two">
+                    <label>
+                        Base price<input type="number" step="0.01" name="price" required>
+                    </label>
+                    <label>
+                        Opening stock<input type="number" name="quantity" value="0">
+                    </label>
+                </div>
+                <div class="two">
+                    <label>
+                        Brand ID<input name="brand">
+                    </label>
+                    <label>
+                        Category ID<input name="category">
+                    </label>
+                </div>
+                <div class="two">
+                    <label>
+                        Color<input name="color">
+                    </label>
+                    <label>
+                        Low-stock threshold<input type="number" name="threshold" value="5">
+                    </label>
+                </div>
+                <button class="yellow-btn">
+                    Create product
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="modal" id="filterModal">
+        <div class="modal-card filter-modal-card">
+            <button type="button" class="modal-close" onclick="closeModal('filterModal')">
+                ×
+            </button>
+            <div class="eyebrow">
+                INVENTORY FILTERS
+            </div>
+            <h2>
+                Filter products
+            </h2>
+            <form method="get" action="/warehouse">
+                <input type="hidden" name="q" value="{{q}}">
+                <div class="filter-grid">
+                    <label class="filter-option">
+                        <span>Stock status</span><select name="stock"><option value="" {% if not stock_filter %}selected{% endif %}>All stock</option><option value="low" {% if stock_filter=='low' %}selected{% endif %}>Low stock</option><option value="out" {% if stock_filter=='out' %}selected{% endif %}>Out of stock</option><option value="healthy" {% if stock_filter=='healthy' %}selected{% endif %}>Healthy stock</option></select>
+                    </label>
+                    <label class="filter-option">
+                        <span>Category</span><select name="category"><option value="">All categories</option>
+                        {% for c in categories %}
+                            <option value="{{c.id}}" {% if category==c.id %}selected{% endif %}>{{c.name}}</option>
+                        {% endfor %}
+                        </select>
+                    </label>
+                    <label class="filter-option">
+                        <span>Brand</span><select name="brand"><option value="">All brands</option>
+                        {% for b in brands %}
+                            <option value="{{b.id}}" {% if brand_filter==b.id %}selected{% endif %}>{{b.name}}</option>
+                        {% endfor %}
+                        </select>
+                    </label>
+                    <label class="filter-option">
+                        <span>Color</span><select name="color"><option value="">All colors</option>
+                        {% for color in colors %}
+                            <option value="{{color}}" {% if color_filter==color %}selected{% endif %}>{{color}}</option>
+                        {% endfor %}
+                        </select>
+                    </label>
+                </div>
+                <div class="filter-actions">
+                    <a class="outline-btn" href="/warehouse">Clear</a>
+                    <button class="yellow-btn" type="submit">
+                        Apply Filters
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal" id="scanner">
+        <div class="modal-card scanner-card">
+            <button type="button" class="modal-close" onclick="closeModal('scanner')">
+                ×
+            </button>
+            <div class="eyebrow">
+                BARCODE / QR
+            </div>
+            <h2>
+                Product scanner
+            </h2>
+            <video id="scanVideo" autoplay playsinline></video>
+            <p>
+                Use the camera when your browser supports BarcodeDetector, or enter a SKU manually.
+            </p>
+            <input id="manualSku" placeholder="Enter SKU or variant code">
+            <button type="button" class="yellow-btn" onclick="searchSku()">
+                Find product
+            </button>
+            <div id="scanResult">
+            </div>
+        </div>
+    </div>
+    <form id="adjustForm" method="post" action="/inventory/adjust">
+        <input type="hidden" name="variant_id" id="adjustVariant"><input type="hidden" name="delta" id="adjustDelta"><input type="hidden" name="reason" id="adjustReason">
+    </form>
+{% endblock %}

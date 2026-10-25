@@ -1,0 +1,85 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                MASTER DATA
+            </div>
+            <h1>
+                Tables Management
+            </h1>
+            <p>
+                Reference tables used by the application: categories and operational locations.
+            </p>
+        </div>
+    </div>
+    <div class="dashboard-grid">
+        <section class="card">
+            <div class="card-head">
+                <h2>
+                    Categories
+                </h2>
+                <span>{{cats|length}}</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Category
+                        </th>
+                        <th>
+                            Products
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in cats %}
+                        <tr>
+                            <td>
+                                {{r.name}}
+                            </td>
+                            <td>
+                                {{r.products}}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+        <section class="card">
+            <div class="card-head">
+                <h2>
+                    Locations
+                </h2>
+                <span>{{locs|length}}</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Location
+                        </th>
+                        <th>
+                            Type
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in locs %}
+                        <tr>
+                            <td>
+                                {{r.name}}
+                            </td>
+                            <td>
+                                {{r.type}}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <div class="info-box">
+                The supplied historical dataset has no store_id field. Location inventory is an operational layer added for live transfer workflows.
+            </div>
+        </section>
+    </div>
+{% endblock %}

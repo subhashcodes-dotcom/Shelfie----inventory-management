@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block auth %}
+    <div class="login-shell">
+        <div class="login-card">
+            <div class="login-logo">
+                <img class="login-brand-image" src="{{url_for('static',filename='shelfie_full.png')}}" alt="Shelfie Inventory">
+            </div>
+            <div class="eyebrow">
+                RETAIL OPERATIONS PLATFORM
+            </div>
+            <h1>
+                Shelfie Inventory<br><span>Intelligence</span>
+            </h1>
+            <p>
+                Inventory management, Data Science and intelligent replenishment in one application.
+            </p>
+            <form method="post" class="login-form">
+                <label>
+                    Username<input name="username" value="admin" required>
+                </label>
+                <label>
+                    Password<input type="password" name="password" value="admin123" required>
+                </label>
+                <button class="yellow-btn">
+                    Sign in →
+                </button>
+            </form>
+            <div class="demo-login">
+                <b>Demo accounts</b><span>admin / admin123</span><span>manager / manager123</span><span>staff / staff123</span><small>Admins can create additional accounts from Employees.</small>
+            </div>
+        </div>
+    </div>
+{% endblock %}

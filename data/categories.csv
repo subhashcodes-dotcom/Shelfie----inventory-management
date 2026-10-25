@@ -1,0 +1,26 @@
+id,name,parent_id,description
+CAT001,Mobile Phones,NULL,Root category for all types of mobile phones and handheld communication devices.
+CAT002,Smartphones,CAT001,Feature-rich mobile phones running advanced operating systems like Android or iOS.
+CAT003,Feature Phones,CAT001,Basic mobile phones with limited functionality focused on calls and SMS.
+CAT004,Foldable Phones,CAT001,Next-generation phones with flexible or foldable display technology.
+CAT005,Rugged Phones,CAT001,Durable mobile phones designed to withstand extreme conditions and harsh environments.
+CAT006,Media Players & Other Devices,CAT001,Non-phone handheld devices such as media players novelty phones and concept devices.
+CAT007,Ultra-Budget Smartphones,CAT002,Sub-₹5000 Android smartphones targeting first-time users and rural markets.
+CAT008,Budget 4G Smartphones,CAT002,Affordable 4G Android smartphones priced between ₹5000–₹12000 for everyday use.
+CAT009,Budget 5G Smartphones,CAT002,Entry-level 5G-enabled smartphones offering next-gen connectivity at low prices under ₹15000.
+CAT010,Mid-Range Smartphones,CAT002,Smartphones priced between ₹15000–₹35000 balancing performance and affordability.
+CAT011,Flagship Smartphones,CAT002,Premium smartphones with top-tier processors specs and build quality priced above ₹35000.
+CAT012,Gaming Smartphones,CAT002,High-performance smartphones optimized for gaming with advanced cooling high refresh displays and fast processors.
+CAT013,Camera-First Smartphones,CAT002,Smartphones designed with a primary focus on photography and videography capabilities.
+CAT014,Luxury Smartphones,CAT002,Ultra-premium handcrafted or limited-edition smartphones targeting high-net-worth individuals.
+CAT015,Concept & Novelty Smartphones,CAT002,Experimental unverified or novelty smartphone concepts not yet mass-produced.
+CAT016,Basic Feature Phones,CAT003,Voice and SMS only phones with no internet support targeting budget-conscious and rural users.
+CAT017,4G Feature Phones,CAT003,Feature phones with 4G VoLTE support enabling affordable internet access and HD voice calls.
+CAT018,Flip & Clamshell Feature Phones,CAT003,Classic flip-style feature phones with a hinged clamshell form factor for compact portability.
+CAT019,Fold Phones,CAT004,Foldable phones that open like a book to reveal a large tablet-sized inner display.
+CAT020,Flip Foldable Phones,CAT004,Compact foldable phones that fold vertically in half like a traditional clamshell with a premium display.
+CAT021,Rollable & Flexible Phones,CAT004,Experimental phones with rollable extendable or fully flexible bendable displays.
+CAT022,Outdoor & Military Rugged Phones,CAT005,Phones built to MIL-STD or IP68/IP69K standards for outdoor adventure and military use.
+CAT023,Industrial Rugged Phones,CAT005,Heavy-duty phones designed for factory warehouse and field service environments.
+CAT024,Media Players,CAT006,Non-phone Wi-Fi handheld media devices such as the Apple iPod Touch.
+CAT025,Concept & Other Devices,CAT006,Unverified novelty or concept devices that do not fit standard phone classifications.

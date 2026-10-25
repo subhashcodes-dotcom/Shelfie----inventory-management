@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="page-head">
+        <div>
+            <div class="eyebrow">
+                MULTI-LOCATION INVENTORY
+            </div>
+            <h1>
+                Stock Transfers
+            </h1>
+            <p>
+                Move available stock between the operational locations without placing an unnecessary supplier order.
+            </p>
+        </div>
+    </div>
+    <div class="transfer-grid">
+        <section class="card">
+            <div class="eyebrow">
+                NEW TRANSFER
+            </div>
+            <h2>
+                Move inventory
+            </h2>
+            <form class="pos-form" method="post" action="/transfers/add">
+                <label>
+                    From<select name="from_location">
+                    {% for l in locs %}
+                        <option value="{{l.id}}">{{l.name}}</option>
+                    {% endfor %}
+                    </select>
+                </label>
+                <label>
+                    To<select name="to_location">
+                    {% for l in locs %}
+                        <option value="{{l.id}}">{{l.name}}</option>
+                    {% endfor %}
+                    </select>
+                </label>
+                <label>
+                    Variant<select name="variant_id">
+                    {% for v in variants %}
+                        <option value="{{v.id}}">{{v.name}} • {{v.color or ''}} • {{v.storage or ''}}</option>
+                    {% endfor %}
+                    </select>
+                </label>
+                <label>
+                    Quantity<input type="number" name="quantity" min="1" value="1">
+                </label>
+                <button class="yellow-btn">
+                    Complete transfer
+                </button>
+            </form>
+        </section>
+        <section class="card">
+            <div class="eyebrow">
+                TRANSFER HISTORY
+            </div>
+            <h2>
+                Recent movements
+            </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Product
+                        </th>
+                        <th>
+                            From
+                        </th>
+                        <th>
+                            To
+                        </th>
+                        <th>
+                            Qty
+                        </th>
+                        <th>
+                            Status
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in rows %}
+                        <tr>
+                            <td>
+                                {{r.name}}
+                            </td>
+                            <td>
+                                {{r.from_name}}
+                            </td>
+                            <td>
+                                {{r.to_name}}
+                            </td>
+                            <td>
+                                {{r.quantity}}
+                            </td>
+                            <td>
+                                <span class="status">{{r.status}}</span>
+                            </td>
+                        </tr>
+                    {% else %}
+                        <tr>
+                            <td colspan="5" class="muted">
+                                No transfers yet.
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </section>
+    </div>
+{% endblock %}

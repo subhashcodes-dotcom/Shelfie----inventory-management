@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{{ title or 'Shelfie Inventory' }}</title><link rel="stylesheet" href="{{url_for('static',filename='style.css')}}?v=20261008"><link rel="icon" type="image/png" href="{{url_for('static',filename='shelfie_favicon.png')}}">
+    </head>
+    <body>
+        {% if user %}
+            <aside class="sidebar">
+                <div class="side-brand">
+                    <a href="/" class="brand-link" title="Shelfie Inventory"><img src="{{url_for('static',filename='shelfie_brand.png')}}" alt="Shelfie Inventory"></a>
+                </div>
+                <div class="side-section">
+                    OPERATIONS
+                </div>
+                <nav>
+                    <a class="{{'active' if request.path=='/' else ''}}" href="/">▦ <span>Dashboard</span></a><a class="{{'active' if request.path=='/orders' else ''}}" href="/orders">▣ <span>Orders</span></a><a class="{{'active' if request.path=='/warehouse' else ''}}" href="/warehouse">⌂ <span>Warehouse</span></a><a class="{{'active' if request.path=='/purchases' else ''}}" href="/purchases">⇩ <span>Purchases</span></a><a class="{{'active' if request.path=='/transfers' else ''}}" href="/transfers">⇄ <span>Stock Transfers</span></a>
+                </nav>
+                <div class="side-section">
+                    INTELLIGENCE
+                </div>
+                <nav>
+                    <a class="{{'active' if request.path=='/analytics' else ''}}" href="/analytics">◈ <span>Analytics & EDA</span></a><a class="{{'active' if request.path=='/decision-center' else ''}}" href="/decision-center">✦ <span>Decision Center</span></a><a class="{{'active' if request.path=='/alerts' else ''}}" href="/alerts">● <span>Notifications <em class="nav-badge">{{global_stats.low}}</em></span></a><a class="{{'active' if request.path=='/assistant' else ''}}" href="/assistant">◌ <span>Inventory Assistant</span></a>
+                </nav>
+                <div class="side-section">
+                    MANAGEMENT
+                </div>
+                <nav>
+                    <a class="{{'active' if request.path.startswith('/suppliers') else ''}}" href="/suppliers">♧ <span>Suppliers</span></a><a class="{{'active' if request.path.startswith('/employees') else ''}}" href="/employees">♙ <span>Employees</span></a><a class="{{'active' if request.path=='/rates' else ''}}" href="/rates">▤ <span>Rates Management</span></a><a class="{{'active' if request.path=='/tables' else ''}}" href="/tables">▥ <span>Tables Management</span></a><a class="{{'active' if request.path=='/system' else ''}}" href="/system">⚙ <span>System Management</span></a>
+                </nav>
+                <div class="side-user">
+                    <a class="avatar" href="/profile" title="My Profile">{{user.name[:1]}}</a>
+                    <div>
+                        <b>{{user.name}}</b><small>{{user.role}}</small>
+                    </div>
+                    <a href="/profile" title="My Profile">↗</a>
+                </div>
+            </aside>
+            <main class="main">
+                <header class="topbar">
+                    <div class="crumb">
+                        SHELFIE <span>/</span>{{title or 'Dashboard'}}
+                    </div>
+                    <div class="top-actions">
+                        <a href="/alerts" class="icon-btn">♧</a>
+                        <button class="theme-toggle" id="themeToggle" type="button" title="Toggle dark mode" aria-label="Toggle dark mode" onclick="toggleTheme();return false;">
+                            ☾
+                        </button>
+                        <span class="online"><i></i> System online</span><a class="profile-mini" href="/profile" title="My Profile">{{user.name[:1]}}</a>
+                    </div>
+                </header>
+                {% with messages=get_flashed_messages(with_categories=true) %}
+                    {% if messages %}
+                        <div class="flashes">
+                            {% for cat,msg in messages %}
+                                <div class="flash {{cat}}">
+                                    {{msg}}
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endwith %}
+                {% block content %}
+                {% endblock %}
+            </main>
+        {% else %}
+            {% block auth %}
+            {% endblock %}
+        {% endif %}
+        <script src="{{url_for('static',filename='app.js')}}?v=20261008"></script>
+    </body>
+</html>
